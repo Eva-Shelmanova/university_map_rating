@@ -152,7 +152,7 @@
     "accessibility_russians": "Visa via Singapore consulate; need minimal language certificate",
     "key_professors": [
       "Kian-Lee Tan (Database, Big Data)",
-      "Lien Bach Ngoc (NLP)",
+      "Lien Bach Ngoc (NLP)",
       "Eugenio Culurciello (Deep Learning)"
     ],
     "scholarships_state": "ASEAN Graduate Scholarship",
@@ -1128,7 +1128,6 @@
     "lat": 40.8075,
     "lon": -73.9626,
     "difficulty": "High",
-    "type": "Private",
     "ratings": {
       "QS": 18,
       "THE": 22,
@@ -1155,7 +1154,6 @@
     "lat": 42.278,
     "lon": -83.7382,
     "difficulty": "High",
-    "type": "Public",
     "ratings": {
       "QS": 23,
       "THE": 27,
@@ -1182,7 +1180,6 @@
     "lat": 47.3769,
     "lon": 8.5417,
     "difficulty": "High",
-    "type": "Public",
     "ratings": {
       "QS": 76,
       "THE": 85,
@@ -1205,482 +1202,10 @@
     ]
   },
   {
-    "name": "Sorbonne University",
-    "lat": 48.8499,
-    "lon": 2.3469,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 100,
-      "THE": 201,
-      "ARWU": 140
-    },
-    "acceptance": {
-      "overall": "50%",
-      "international": "25%",
-      "gender": "55% women / 45% men"
-    },
-    "accessibility_russians": "French student visa; DELF/DALF may be required",
-    "key_professors": [
-      "Philippe Muller (AI)",
-      "Laurence Likforman‑Sulem (NLP)"
-    ],
-    "scholarships_state": "Eiffel Scholarship",
-    "scholarships_university": [
-      "Sorbonne Excellence Scholarships"
-    ]
-  },
-  {
-    "name": "Université PSL",
-    "lat": 48.8566,
-    "lon": 2.3522,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 44,
-      "THE": 201,
-      "ARWU": 64
-    },
-    "acceptance": {
-      "overall": "30%",
-      "international": "40%",
-      "gender": "50% women / 50% men"
-    },
-    "accessibility_russians": "French visa; strong international student support",
-    "key_professors": [
-      "Stéphane Mallat (Math/ML)",
-      "Antoine Bordes (NLP)"
-    ],
-    "scholarships_state": "Eiffel Scholarship",
-    "scholarships_university": [
-      "PSL Excellence Fellowships"
-    ]
-  },
-  {
-    "name": "École Polytechnique (l’X)",
-    "lat": 48.7132,
-    "lon": 2.2142,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 128,
-      "THE": 251,
-      "ARWU": "null"
-    },
-    "acceptance": {
-      "overall": "10%",
-      "international": "40%",
-      "gender": "42% women / 58% men"
-    },
-    "accessibility_russians": "French long‑stay visa; highly competitive concours entrance",
-    "key_professors": [
-      "Patrick Gallinari (ML)",
-      "Pierre Canal (NLP)"
-    ],
-    "scholarships_state": "Eiffel Scholarship",
-    "scholarships_university": [
-      "l’X Excellence Scholarships"
-    ]
-  },
-  {
-    "name": "Delft University of Technology (TU Delft)",
-    "lat": 52.0116,
-    "lon": 4.3571,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 57,
-      "THE": 75,
-      "ARWU": 101
-    },
-    "acceptance": {
-      "overall": "35%",
-      "international": "40%",
-      "gender": "25% women / 75% men"
-    },
-    "accessibility_russians": "Dutch student visa; English‑taught MSc programs",
-    "key_professors": [
-      "Max Welling (ML)",
-      "Frank van Harmelen (AI)"
-    ],
-    "scholarships_state": "Holland Scholarship",
-    "scholarships_university": [
-      "TU Delft Excellence Scholarships"
-    ]
-  },
-  {
-    "name": "Tsinghua University",
-    "lat": 39.9042,
-    "lon": 116.4074,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 21,
-      "THE": 30,
-      "ARWU": 23
-    },
-    "acceptance": {
-      "overall": "20%",
-      "international": "10%",
-      "gender": "45% women / 55% men"
-    },
-    "accessibility_russians": "Chinese X‑visa; basic Mandarin helpful",
-    "key_professors": [
-      "Tiejun Zhao (AI)",
-      "Haifeng Wang (NLP)"
-    ],
-    "scholarships_state": "Chinese Government Scholarship",
-    "scholarships_university": [
-      "Tsinghua Schwarzman Scholarship",
-      "Tuition Waiver"
-    ]
-  },
-  {
-    "name": "KAIST (Korea Advanced Institute of Science & Technology)",
-    "lat": 36.3704,
-    "lon": 127.3601,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 41,
-      "THE": 201,
-      "ARWU": 151
-    },
-    "acceptance": {
-      "overall": "30%",
-      "international": "20%",
-      "gender": "30% women / 70% men"
-    },
-    "accessibility_russians": "D‑2 visa; English programs, some Korean classes",
-    "key_professors": [
-      "Alice Oh (ML)",
-      "Soochul Han (NLP)"
-    ],
-    "scholarships_state": "KGSP (Korean Government Scholarship)",
-    "scholarships_university": [
-      "KAIST President Fellowship"
-    ]
-  },
-  {
-    "name": "University College London (UCL)",
-    "lat": 51.5246,
-    "lon": -0.134,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 8,
-      "THE": 16,
-      "ARWU": 22
-    },
-    "acceptance": {
-      "overall": "20%",
-      "international": "57%",
-      "gender": "47% women / 53% men"
-    },
-    "accessibility_russians": "Tier 4 visa; UKVI SELT accepted",
-    "key_professors": [
-      "Mark Girolami (ML)",
-      "Ted Briscoe (NLP)"
-    ],
-    "scholarships_state": "Chevening",
-    "scholarships_university": [
-      "UCL Global Masters Scholarship"
-    ]
-  },
-  {
-    "name": "University of Edinburgh",
-    "lat": 55.944,
-    "lon": -3.1875,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 16,
-      "THE": 30,
-      "ARWU": 34
-    },
-    "acceptance": {
-      "overall": "25%",
-      "international": "65%",
-      "gender": "47% women / 53% men"
-    },
-    "accessibility_russians": "Tier 4 visa; proof of English proficiency",
-    "key_professors": [
-      "Stephen Clark (NLP)",
-      "Dan Roth (ML)"
-    ],
-    "scholarships_state": "Chevening",
-    "scholarships_university": [
-      "Edinburgh Global Research Scholarships"
-    ]
-  },
-  {
-    "name": "King’s College London (KCL)",
-    "lat": 51.5074,
-    "lon": -0.1183,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 35,
-      "THE": 601,
-      "ARWU": 165
-    },
-    "acceptance": {
-      "overall": "30%",
-      "international": "60%",
-      "gender": "52% women / 48% men"
-    },
-    "accessibility_russians": "Tier 4 visa; IELTS/TOEFL required",
-    "key_professors": [
-      "Shimon Whiteson (ML)",
-      "Serena Villata (NLP)"
-    ],
-    "scholarships_state": "Chevening",
-    "scholarships_university": [
-      "King’s Scholarships",
-      "International Hardship Fund"
-    ]
-  },
-  {
-    "name": "University of Manchester",
-    "lat": 53.4668,
-    "lon": -2.2339,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 58,
-      "THE": 117,
-      "ARWU": 50
-    },
-    "acceptance": {
-      "overall": "50%",
-      "international": "70%",
-      "gender": "48% women / 52% men"
-    },
-    "accessibility_russians": "Tier 4 visa; strong postgraduate support",
-    "key_professors": [
-      "Christian Straßer (ML)",
-      "Valia Nikolaidou (NLP)"
-    ],
-    "scholarships_state": "Chevening",
-    "scholarships_university": [
-      "Manchester President’s Doctoral Scholar Awards"
-    ]
-  },
-  {
-    "name": "University of Tokyo",
-    "lat": 35.7126,
-    "lon": 139.761,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 24,
-      "THE": 36,
-      "ARWU": 23
-    },
-    "acceptance": {
-      "overall": "35%",
-      "international": "10%",
-      "gender": "28% women / 72% men"
-    },
-    "accessibility_russians": "Japanese student visa; basic Japanese helpful",
-    "key_professors": [
-      "Makoto Yokozawa (ML)",
-      "Satoshi Sekiguchi (NLP)"
-    ],
-    "scholarships_state": "MEXT Scholarship",
-    "scholarships_university": [
-      "UTokyo Fellowship"
-    ]
-  },
-  {
-    "name": "Seoul National University (SNU)",
-    "lat": 37.4563,
-    "lon": 126.9516,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 37,
-      "THE": 49,
-      "ARWU": 101
-    },
-    "acceptance": {
-      "overall": "25%",
-      "international": "10%",
-      "gender": "40% women / 60% men"
-    },
-    "accessibility_russians": "D‑2 visa; Korean language course available",
-    "key_professors": [
-      "Alice Oh (ML)",
-      "Hyun‑chul Kim (NLP)"
-    ],
-    "scholarships_state": "KGSP",
-    "scholarships_university": [
-      "SNU President Fellowship"
-    ]
-  },
-  {
-    "name": "POSTECH (Pohang University of Science & Technology)",
-    "lat": 35.2328,
-    "lon": 129.0718,
-    "difficulty": "Medium-High",
-    "type": "Private",
-    "ratings": {
-      "QS": 85,
-      "THE": 301,
-      "ARWU": "null"
-    },
-    "acceptance": {
-      "overall": "10%",
-      "international": "15%",
-      "gender": "30% women / 70% men"
-    },
-    "accessibility_russians": "D‑2 visa; English‑taught programs",
-    "key_professors": [
-      "Jae‑Kyung Eoh (ML)",
-      "Chul‑Woo Lee (NLP)"
-    ],
-    "scholarships_state": "KGSP",
-    "scholarships_university": [
-      "POSTECH Fellowship"
-    ]
-  },
-  {
-    "name": "Korea University",
-    "lat": 37.5904,
-    "lon": 127.0164,
-    "difficulty": "Medium-High",
-    "type": "Private",
-    "ratings": {
-      "QS": 69,
-      "THE": 251,
-      "ARWU": 151
-    },
-    "acceptance": {
-      "overall": "30%",
-      "international": "10%",
-      "gender": "45% women / 55% men"
-    },
-    "accessibility_russians": "D‑2 visa; some Korean-language requirement",
-    "key_professors": [
-      "Kee‑Eung Kim (ML)",
-      "Hyeju Shin (NLP)"
-    ],
-    "scholarships_state": "KGSP",
-    "scholarships_university": [
-      "KU International Scholarship"
-    ]
-  },
-  {
-    "name": "Yonsei University",
-    "lat": 37.5651,
-    "lon": 126.9386,
-    "difficulty": "Medium-High",
-    "type": "Private",
-    "ratings": {
-      "QS": 87,
-      "THE": 301,
-      "ARWU": "null"
-    },
-    "acceptance": {
-      "overall": "25%",
-      "international": "10%",
-      "gender": "50% women / 50% men"
-    },
-    "accessibility_russians": "D‑2 visa; English‑taught programs available",
-    "key_professors": [
-      "Sang‑Hee Ahn (ML)",
-      "Minwoo Park (NLP)"
-    ],
-    "scholarships_state": "KGSP",
-    "scholarships_university": [
-      "Yonsei Graduate Fellowship"
-    ]
-  },
-  {
-    "name": "Australian National University (ANU)",
-    "lat": -35.2779,
-    "lon": 149.1185,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 27,
-      "THE": 50,
-      "ARWU": 101
-    },
-    "acceptance": {
-      "overall": "35%",
-      "international": "30%",
-      "gender": "50% women / 50% men"
-    },
-    "accessibility_russians": "Australian student visa; IELTS required",
-    "key_professors": [
-      "Murray Shanahan (AI)",
-      "Fiona Browne (ML)"
-    ],
-    "scholarships_state": "Australia Awards",
-    "scholarships_university": [
-      "ANU Chancellor’s Scholar",
-      "Research School Scholarships"
-    ]
-  },
-  {
-    "name": "KTH Royal Institute of Technology",
-    "lat": 59.3478,
-    "lon": 18.0729,
-    "difficulty": "Medium-High",
-    "type": "Public",
-    "ratings": {
-      "QS": 98,
-      "THE": 201,
-      "ARWU": "null"
-    },
-    "acceptance": {
-      "overall": "25%",
-      "international": "20%",
-      "gender": "30% women / 70% men"
-    },
-    "accessibility_russians": "Swedish residence permit; English master’s programs",
-    "key_professors": [
-      "Petri Myllymäki (AI)",
-      "Magnus Sahlgren (NLP)"
-    ],
-    "scholarships_state": "Swedish Institute Scholarship",
-    "scholarships_university": [
-      "KTH Excellence Scholarship"
-    ]
-  },
-  {
-    "name": "New York University Abu Dhabi (NYUAD)",
-    "lat": 24.4539,
-    "lon": 54.3773,
-    "difficulty": "Medium-High",
-    "type": "Private",
-    "ratings": {
-      "QS": "null",
-      "THE": 23,
-      "ARWU": "null"
-    },
-    "acceptance": {
-      "overall": "25%",
-      "international": "100%",
-      "gender": "48% women / 52% men"
-    },
-    "accessibility_russians": "UAE student visa; university-assisted process",
-    "key_professors": [
-      "Adam Roberts (NLP)",
-      "Andrew Gordon (ML)"
-    ],
-    "scholarships_state": "UAE Government Scholarship",
-    "scholarships_university": [
-      "NYUAD Fellowship"
-    ]
-  },
-  {
     "name": "Chalmers University of Technology",
     "lat": 57.6896,
     "lon": 11.9766,
     "difficulty": "Medium",
-    "university_type": "Public",
     "ratings": {
       "QS": 120,
       "THE": 201,
@@ -1707,7 +1232,6 @@
     "lat": 55.711,
     "lon": 13.2079,
     "difficulty": "Medium",
-    "university_type": "Public",
     "ratings": {
       "QS": 95,
       "THE": 116,
@@ -1733,7 +1257,6 @@
     "lat": 59.8586,
     "lon": 17.6389,
     "difficulty": "Medium",
-    "university_type": "Public",
     "ratings": {
       "QS": 102,
       "THE": 131,
@@ -1759,7 +1282,6 @@
     "lat": 59.9406,
     "lon": 10.718,
     "difficulty": "Medium",
-    "university_type": "Public",
     "ratings": {
       "QS": 126,
       "THE": 119,
@@ -1785,7 +1307,6 @@
     "lat": 45.4781,
     "lon": 9.2277,
     "difficulty": "Medium",
-    "university_type": "Public",
     "ratings": {
       "QS": 123,
       "THE": 175,
