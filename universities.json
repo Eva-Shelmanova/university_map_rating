@@ -1176,32 +1176,6 @@
     ]
   },
   {
-    "name": "University of Zurich",
-    "lat": 47.3769,
-    "lon": 8.5417,
-    "difficulty": "High",
-    "ratings": {
-      "QS": 76,
-      "THE": 85,
-      "ARWU": 101
-    },
-    "acceptance": {
-      "overall": "29%",
-      "international": "38%",
-      "gender": "45% women / 55% men"
-    },
-    "accessibility_russians": "Visa via Swiss consulate; German‐language prep recommended",
-    "key_professors": [
-      "Christoph Müller (AI Ethics)",
-      "Philipp Slusallek (Real‐Time AI)"
-    ],
-    "scholarships_state": "Swiss Government Excellence Scholarship",
-    "scholarships_university": [
-      "UZH Excellence Scholarship",
-      "Research Assistant Positions"
-    ]
-  },
-  {
     "name": "Chalmers University of Technology",
     "lat": 57.6896,
     "lon": 11.9766,
