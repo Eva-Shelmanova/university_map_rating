@@ -1122,5 +1122,62 @@
       "Bavarian State Scholarship",
       "TUM Research Assistantships"
     ]
+  },
+  {
+    "name": "Columbia University",
+    "lat": 40.8075,
+    "lon": -73.9626,
+    "difficulty": "High",
+    "type": "Private",
+    "ratings": { "QS": 18, "THE": 22, "ARWU": 14 },
+    "acceptance": { "overall": "6%", "international": "28%", "gender": "51% women / 49% men" },
+    "accessibility_russians": "F‑1 visa; proof of funding required",
+    "key_professors": [
+      "David Blei (ML)",
+      "Mirella Lapata (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Columbia Presidential Fellowship",
+      "TA/RA appointments"
+    ]
+  },
+  {
+    "name": "University of Michigan, Ann Arbor",
+    "lat": 42.2780,
+    "lon": -83.7382,
+    "difficulty": "High",
+    "type": "Public",
+    "ratings": { "QS": 23, "THE": 27, "ARWU": 23 },
+    "acceptance": { "overall": "24%", "international": "20%", "gender": "48% women / 52% men" },
+    "accessibility_russians": "F‑1 visa; strong international office support",
+    "key_professors": [
+      "Jiawei Han (Data Mining)",
+      "Ethan Eade (ML)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Rackham Merit Fellowship",
+      "Research Assistantships"
+    ]
+  },
+  {
+    "name": "University of Zurich",
+    "lat": 47.3769,
+    "lon": 8.5417,
+    "difficulty": "High",
+    "type": "Public",
+    "ratings": { "QS": 76, "THE": 85, "ARWU": 101 },
+    "acceptance": { "overall": "29%", "international": "38%", "gender": "45% women / 55% men" },
+    "accessibility_russians": "Visa via Swiss consulate; German‐language prep recommended",
+    "key_professors": [
+      "Christoph Müller (AI Ethics)",
+      "Philipp Slusallek (Real‐Time AI)"
+    ],
+    "scholarships_state": "Swiss Government Excellence Scholarship",
+    "scholarships_university": [
+      "UZH Excellence Scholarship",
+      "Research Assistant Positions"
+    ]
   }
 ]
