@@ -1,0 +1,1126 @@
+[
+  {
+    "name": "ETH Zurich",
+    "lat": 47.3769,
+    "lon": 8.5417,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 6,
+      "THE": 9,
+      "ARWU": 8
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "20%",
+      "gender": "33% women / 67% men"
+    },
+    "accessibility_russians": "Visa required; straightforward process via Swiss consulate",
+    "key_professors": [
+      "Andreas Krause",
+      "Gunnar Rätsch",
+      "Thomas Hofmann"
+    ],
+    "scholarships_state": "Swiss Government Excellence Scholarship",
+    "scholarships_university": [
+      "ESOP (Excellence Scholarship)",
+      "ETH‑D Scholarship"
+    ]
+  },
+  {
+    "name": "MIT",
+    "lat": 42.3601,
+    "lon": -71.0942,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 1,
+      "THE": 2,
+      "ARWU": 2
+    },
+    "acceptance": {
+      "overall": "7%",
+      "international": "33%",
+      "gender": "41% women / 59% men"
+    },
+    "accessibility_russians": "Visa required; competitive F‑1 visa application",
+    "key_professors": [
+      "Tommi Jaakkola",
+      "Regina Barzilay",
+      "Max Tegmark"
+    ],
+    "scholarships_state": "Fulbright Scholarship",
+    "scholarships_university": [
+      "MIT Presidential Fellowship",
+      "RA/TA positions"
+    ]
+  },
+  {
+    "name": "MBZUAI",
+    "lat": 24.4332,
+    "lon": 54.602,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": "null",
+      "THE": "null",
+      "ARWU": "null"
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "85%",
+      "gender": "40% women / 60% men"
+    },
+    "accessibility_russians": "Visa assistance provided; high acceptance of Russian applicants",
+    "key_professors": [
+      "Eric Xing",
+      "Timothy Baldwin",
+      "Ling Shao"
+    ],
+    "scholarships_state": "None (UAE does not offer state scholarships)",
+    "scholarships_university": [
+      "Full tuition scholarship",
+      "Monthly stipend AED 8,000"
+    ]
+  },
+  {
+    "name": "Tsinghua University",
+    "lat": 39.9042,
+    "lon": 116.4074,
+    "difficulty": "Medium-High",
+    "ratings": {
+      "QS": 15,
+      "THE": 17,
+      "ARWU": 23
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "10%",
+      "gender": "45% women / 55% men"
+    },
+    "accessibility_russians": "Easy via student visa; Chinese language prep recommended",
+    "key_professors": [
+      "Tiejun Zhao",
+      "Haifeng Wang",
+      "Qi Ju"
+    ],
+    "scholarships_state": "Chinese Government Scholarship",
+    "scholarships_university": [
+      "Schwarzman Scholarship",
+      "Tuition Waiver"
+    ]
+  },
+  {
+    "name": "Nanyang Technological University (NTU)",
+    "lat": 1.3483,
+    "lon": 103.6831,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 12,
+      "THE": 11,
+      "ARWU": 58
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "40%",
+      "gender": "45% women / 55% men"
+    },
+    "accessibility_russians": "Straightforward student visa; IELTS/TOEFL accepted",
+    "key_professors": [
+      "Yew-Soon Ong (ML, AutoML)",
+      "Keng Siau (Data Analytics)",
+      "Philip S. Yu (Big Data)"
+    ],
+    "scholarships_state": "Singapore Government Scholarship",
+    "scholarships_university": [
+      "NTU Scholarships (merit-based)",
+      "ASEAN Graduate Scholarship"
+    ]
+  },
+  {
+    "name": "National University of Singapore (NUS)",
+    "lat": 1.2956,
+    "lon": 103.7764,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 11,
+      "THE": 19,
+      "ARWU": 61
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "35%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "Visa via Singapore consulate; need minimal language certificate",
+    "key_professors": [
+      "Kian-Lee Tan (Database, Big Data)",
+      "Lien Bach Ngoc (NLP)",
+      "Eugenio Culurciello (Deep Learning)"
+    ],
+    "scholarships_state": "ASEAN Graduate Scholarship",
+    "scholarships_university": [
+      "NUS Research Scholarship",
+      "NUS Graduate Scholarships"
+    ]
+  },
+  {
+    "name": "University of Sydney",
+    "lat": -33.8881,
+    "lon": 151.1872,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 14,
+      "THE": 22,
+      "ARWU": 76
+    },
+    "acceptance": {
+      "overall": "40%",
+      "international": "50%",
+      "gender": "48% women / 52% men"
+    },
+    "accessibility_russians": "Student visa straightforward; IELTS required",
+    "key_professors": [
+      "Zoran Obradovic (Data Mining)",
+      "Fiona Browne (Machine Learning)"
+    ],
+    "scholarships_state": "Australia Awards",
+    "scholarships_university": [
+      "University of Sydney International Scholarships",
+      "USyd Merit Scholarships"
+    ]
+  },
+  {
+    "name": "University of Oxford",
+    "lat": 51.752,
+    "lon": -1.2577,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 5,
+      "THE": 1,
+      "ARWU": 4
+    },
+    "acceptance": {
+      "overall": "17%",
+      "international": "45%",
+      "gender": "49% women / 51% men"
+    },
+    "accessibility_russians": "Tier 4 visa; requires CAS from college",
+    "key_professors": [
+      "Yee Whye Teh (ML)",
+      "Phil Blunsom (NLP)"
+    ],
+    "scholarships_state": "Chevening Scholarship",
+    "scholarships_university": [
+      "Clarendon Fund",
+      "Reach Oxford Scholarships"
+    ]
+  },
+  {
+    "name": "University of California, Berkeley (UC Berkeley)",
+    "lat": 37.8715,
+    "lon": -122.273,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 4,
+      "THE": 8,
+      "ARWU": 5
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "22%",
+      "gender": "52% women / 48% men"
+    },
+    "accessibility_russians": "F‑1 visa process standard; evidence of funds required",
+    "key_professors": [
+      "Michael I. Jordan (ML)",
+      "Dan Klein (NLP)"
+    ],
+    "scholarships_state": "Fulbright (US candidates)",
+    "scholarships_university": [
+      "Berkeley Graduate Fellowships",
+      "EECS Department Awards"
+    ]
+  },
+  {
+    "name": "Stanford University",
+    "lat": 37.4275,
+    "lon": -122.1697,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 3,
+      "THE": 3,
+      "ARWU": 3
+    },
+    "acceptance": {
+      "overall": "5%",
+      "international": "23%",
+      "gender": "47% women / 53% men"
+    },
+    "accessibility_russians": "F‑1 visa; rigorous financial proof",
+    "key_professors": [
+      "Christopher Manning (NLP)",
+      "Andrew Ng (ML)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Knight‑Hennessy Scholars",
+      "Stanford GSA Awards"
+    ]
+  },
+  {
+    "name": "Imperial College London",
+    "lat": 51.4988,
+    "lon": -0.1749,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 12,
+      "THE": 12,
+      "ARWU": 48
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "61%",
+      "gender": "42% women / 58% men"
+    },
+    "accessibility_russians": "Student visa; financial guarantee required",
+    "key_professors": [
+      "Maja Pantic (ML)",
+      "Nello Cristianini (NLP)"
+    ],
+    "scholarships_state": "Chevening",
+    "scholarships_university": [
+      "President’s PhD Scholarships",
+      "Imperial Scholarships"
+    ]
+  },
+  {
+    "name": "California Institute of Technology (Caltech)",
+    "lat": 34.1377,
+    "lon": -118.1253,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 6,
+      "THE": 8,
+      "ARWU": 5
+    },
+    "acceptance": {
+      "overall": "6%",
+      "international": "30%",
+      "gender": "45% women / 55% men"
+    },
+    "accessibility_russians": "F‑1 visa; strong financials needed",
+    "key_professors": [
+      "Yisong Yue (ML)",
+      "John Wawrzynek (Robotics/Embedded ML)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Caltech Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "University of Edinburgh",
+    "lat": 55.944,
+    "lon": -3.1875,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 16,
+      "THE": 30,
+      "ARWU": 34
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "65%",
+      "gender": "47% women / 53% men"
+    },
+    "accessibility_russians": "Tier 4 visa; proof of English proficiency",
+    "key_professors": [
+      "Stephen Clark (NLP)",
+      "Dan Roth (ML)"
+    ],
+    "scholarships_state": "Chevening",
+    "scholarships_university": [
+      "Edinburgh Global Research Scholarships"
+    ]
+  },
+  {
+    "name": "University of Pennsylvania (Penn)",
+    "lat": 39.9522,
+    "lon": -75.1932,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 14,
+      "THE": 15,
+      "ARWU": 13
+    },
+    "acceptance": {
+      "overall": "10%",
+      "international": "30%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "F‑1 visa; standard process",
+    "key_professors": [
+      "Christopher Ré (ML)",
+      "Ellen Riloff (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Penn Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "Carnegie Mellon University (CMU)",
+    "lat": 40.444,
+    "lon": -79.945,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 24,
+      "THE": 27,
+      "ARWU": 22
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "40%",
+      "gender": "40% women / 60% men"
+    },
+    "accessibility_russians": "F‑1 visa; I‑20 issued after admission",
+    "key_professors": [
+      "Geoffrey Gordon (ML)",
+      "Eduard Hovy (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "CMU Presidential Fellowship",
+      "TA/RA positions"
+    ]
+  },
+  {
+    "name": "Harvard University",
+    "lat": 42.377,
+    "lon": -71.1167,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 2,
+      "THE": 5,
+      "ARWU": 1
+    },
+    "acceptance": {
+      "overall": "5%",
+      "international": "25%",
+      "gender": "49% women / 51% men"
+    },
+    "accessibility_russians": "F‑1 visa; proof of funding",
+    "key_professors": [
+      "David Parkes (ML)",
+      "Regina Barzilay (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Harvard Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "Yale University",
+    "lat": 41.3163,
+    "lon": -72.9223,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 15,
+      "THE": 18,
+      "ARWU": 12
+    },
+    "acceptance": {
+      "overall": "6%",
+      "international": "30%",
+      "gender": "52% women / 48% men"
+    },
+    "accessibility_russians": "F‑1 visa; meets financial proof requirements",
+    "key_professors": [
+      "Wojciech Zaremba (ML)",
+      "Iryna Gurevych (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Yale Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "University of Toronto",
+    "lat": 43.6629,
+    "lon": -79.3957,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 18,
+      "THE": 16,
+      "ARWU": 24
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "50%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "Study permit required; IELTS/TOEFL accepted",
+    "key_professors": [
+      "Geoffrey Hinton (ML)",
+      "Graeme Hirst (NLP)"
+    ],
+    "scholarships_state": "Vanier Canada Graduate Scholarships",
+    "scholarships_university": [
+      "Trillium Scholarship",
+      "Faculty Fellowships"
+    ]
+  },
+  {
+    "name": "École Polytechnique Fédérale de Lausanne (EPFL)",
+    "lat": 46.5218,
+    "lon": 6.5676,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 16,
+      "THE": 17,
+      "ARWU": 43
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "50%",
+      "gender": "25% women / 75% men"
+    },
+    "accessibility_russians": "Visa via Swiss consulate; language not required",
+    "key_professors": [
+      "Pascal Frossard (ML)",
+      "Pascal Getreuer (Image Processing)"
+    ],
+    "scholarships_state": "Swiss Government Excellence Scholarship",
+    "scholarships_university": [
+      "EPFL Excellence Fellowships"
+    ]
+  },
+  {
+    "name": "New York University (NYU)",
+    "lat": 40.7295,
+    "lon": -73.9965,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 35,
+      "THE": 38,
+      "ARWU": 42
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "45%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "F‑1 visa; strong support from global services",
+    "key_professors": [
+      "Robert Moskovitch (AI)",
+      "Kathleen McKeown (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "NYU Global Scholarships"
+    ]
+  },
+  {
+    "name": "NYU Abu Dhabi",
+    "lat": 24.4539,
+    "lon": 54.3773,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": "null",
+      "THE": 23,
+      "ARWU": "null"
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "100%",
+      "gender": "48% women / 52% men"
+    },
+    "accessibility_russians": "Visa assistance provided; streamlined",
+    "key_professors": [
+      "Andrew Gordon (Machine Learning)",
+      "Adam Roberts (NLP)"
+    ],
+    "scholarships_state": "UAE Government Scholarship",
+    "scholarships_university": [
+      "NYUAD Fellowship"
+    ]
+  },
+  {
+    "name": "University of Washington (UW)",
+    "lat": 47.6553,
+    "lon": -122.3035,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 20,
+      "THE": 25,
+      "ARWU": 16
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "25%",
+      "gender": "44% women / 56% men"
+    },
+    "accessibility_russians": "F‑1 visa standard; ESL prep available",
+    "key_professors": [
+      "Emily Fox (ML)",
+      "Luke Zettlemoyer (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Husky Presidential Scholarship"
+    ]
+  },
+  {
+    "name": "Cornell University",
+    "lat": 42.4534,
+    "lon": -76.4735,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 18,
+      "THE": 17,
+      "ARWU": 14
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "40%",
+      "gender": "41% women / 59% men"
+    },
+    "accessibility_russians": "F‑1 visa; proof of funds",
+    "key_professors": [
+      "Claire Cardie (NLP)",
+      "Ruslan Salakhutdinov (ML)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Sibley Fellowship",
+      "CS Department Awards"
+    ]
+  },
+  {
+    "name": "UCL (University College London)",
+    "lat": 51.5246,
+    "lon": -0.134,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 8,
+      "THE": 16,
+      "ARWU": 22
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "57%",
+      "gender": "47% women / 53% men"
+    },
+    "accessibility_russians": "Tier 4 visa; UKVI English test accepted",
+    "key_professors": [
+      "Mark Girolami (ML)",
+      "Ted Briscoe (NLP)"
+    ],
+    "scholarships_state": "Chevening",
+    "scholarships_university": [
+      "UCL Global Masters Scholarship"
+    ]
+  },
+  {
+    "name": "Seoul National University (SNU)",
+    "lat": 37.4563,
+    "lon": 126.9516,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 37,
+      "THE": 49,
+      "ARWU": 101
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "10%",
+      "gender": "40% women / 60% men"
+    },
+    "accessibility_russians": "D‑2 student visa; Korean language course available",
+    "key_professors": [
+      "Alice Oh (ML)",
+      "Hyun-chul Kim (NLP)"
+    ],
+    "scholarships_state": "KGSP (Korean Government Scholarship)",
+    "scholarships_university": [
+      "SNU President Fellowship"
+    ]
+  },
+  {
+    "name": "Delft University of Technology (TU Delft)",
+    "lat": 52.0116,
+    "lon": 4.3571,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 57,
+      "THE": 75,
+      "ARWU": -49
+    },
+    "acceptance": {
+      "overall": "35%",
+      "international": "40%",
+      "gender": "25% women / 75% men"
+    },
+    "accessibility_russians": "Dutch student visa; English programs",
+    "key_professors": [
+      "Max Welling (ML)",
+      "Frank van Harmelen (AI)"
+    ],
+    "scholarships_state": "Holland Scholarship",
+    "scholarships_university": [
+      "TU Delft Excellence Scholarships"
+    ]
+  },
+  {
+    "name": "Aalto University",
+    "lat": 60.186,
+    "lon": 24.828,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 135,
+      "THE": -49,
+      "ARWU": "null"
+    },
+    "acceptance": {
+      "overall": "40%",
+      "international": "30%",
+      "gender": "30% women / 70% men"
+    },
+    "accessibility_russians": "Finnish residence permit; English-taught programs",
+    "key_professors": [
+      "Samuel Kaski (ML)",
+      "Harri Valpola (Deep Learning)"
+    ],
+    "scholarships_state": "Finnish Government Scholarship",
+    "scholarships_university": [
+      "Aalto University Scholarships"
+    ]
+  },
+  {
+    "name": "KTH Royal Institute of Technology",
+    "lat": 59.3478,
+    "lon": 18.0729,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 98,
+      "THE": -49,
+      "ARWU": "null"
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "20%",
+      "gender": "30% women / 70% men"
+    },
+    "accessibility_russians": "Swedish residence permit; English master’s",
+    "key_professors": [
+      "Petri Myllymäki (AI)",
+      "Magnus Sahlgren (NLP)"
+    ],
+    "scholarships_state": "Swedish Institute Scholarship",
+    "scholarships_university": [
+      "KTH Excellence Scholarship"
+    ]
+  },
+  {
+    "name": "Sorbonne University",
+    "lat": 48.8499,
+    "lon": 2.3469,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 100,
+      "THE": -49,
+      "ARWU": 140
+    },
+    "acceptance": {
+      "overall": "50%",
+      "international": "25%",
+      "gender": "55% women / 45% men"
+    },
+    "accessibility_russians": "French student visa; DELF/DALF may be required",
+    "key_professors": [
+      "Philippe Muller (AI)",
+      "Laurence Likforman-Sulem (NLP)"
+    ],
+    "scholarships_state": "Eiffel Scholarship",
+    "scholarships_university": [
+      "Sorbonne Excellence Scholarships"
+    ]
+  },
+  {
+    "name": "Institut Polytechnique de Paris",
+    "lat": 48.7132,
+    "lon": 2.2142,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 128,
+      "THE": -49,
+      "ARWU": "null"
+    },
+    "acceptance": {
+      "overall": "35%",
+      "international": "30%",
+      "gender": "40% women / 60% men"
+    },
+    "accessibility_russians": "French long-stay visa; IELTS/TOEFL accepted",
+    "key_professors": [
+      "Patrick Gallinari (ML)",
+      "Pierre Canal (NLP)"
+    ],
+    "scholarships_state": "Eiffel Scholarship",
+    "scholarships_university": [
+      "IP Paris Excellence Scholarships"
+    ]
+  },
+  {
+    "name": "Université PSL",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 44,
+      "THE": -49,
+      "ARWU": 64
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "40%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "French visa; robust international office support",
+    "key_professors": [
+      "Stéphane Mallat (Math/ML)",
+      "Antoine Bordes (NLP)"
+    ],
+    "scholarships_state": "Eiffel Scholarship",
+    "scholarships_university": [
+      "PSL Excellence Fellowships"
+    ]
+  },
+  {
+    "name": "Georgia Institute of Technology (Georgia Tech)",
+    "lat": 33.7756,
+    "lon": -84.3963,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 68,
+      "THE": 100,
+      "ARWU": -49
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "25%",
+      "gender": "35% women / 65% men"
+    },
+    "accessibility_russians": "F‑1 visa; financial proof needed",
+    "key_professors": [
+      "Zsolt Kira (ML)",
+      "Mark Hasegawa-Johnson (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "GT Presidential Fellowships"
+    ]
+  },
+  {
+    "name": "University of Illinois Urbana‑Champaign (UIUC)",
+    "lat": 40.1106,
+    "lon": -88.2073,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 42,
+      "THE": 48,
+      "ARWU": 47
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "30%",
+      "gender": "40% women / 60% men"
+    },
+    "accessibility_russians": "F‑1 visa; I‑20 issued post‑admission",
+    "key_professors": [
+      "Carl Anderson (ML)",
+      "Rada Mihalcea (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "UIUC Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "University of British Columbia (UBC)",
+    "lat": 49.2606,
+    "lon": -123.246,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 47,
+      "THE": 34,
+      "ARWU": 34
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "50%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "Study permit via CIC; IELTS/TOEFL accepted",
+    "key_professors": [
+      "Mark Schmidt (ML)",
+      "Graeme Hirst (NLP)"
+    ],
+    "scholarships_state": "Vanier Canada Graduate Scholarship",
+    "scholarships_university": [
+      "UBC Four Year Doctoral Fellowship"
+    ]
+  },
+  {
+    "name": "University of Cambridge",
+    "lat": 52.2043,
+    "lon": 0.1149,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 2,
+      "THE": 5,
+      "ARWU": 7
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "40%",
+      "gender": "48% women / 52% men"
+    },
+    "accessibility_russians": "Tier 4 visa; college sponsorship required",
+    "key_professors": [
+      "Zoubin Ghahramani (ML)",
+      "Mirella Lapata (NLP)"
+    ],
+    "scholarships_state": "Commonwealth Scholarship",
+    "scholarships_university": [
+      "Gates Cambridge Scholarship",
+      "Cambridge Trust Awards"
+    ]
+  },
+  {
+    "name": "Princeton University",
+    "lat": 40.3431,
+    "lon": -74.6514,
+    "difficulty": "Very High",
+    "ratings": {
+      "QS": 12,
+      "THE": 9,
+      "ARWU": 12
+    },
+    "acceptance": {
+      "overall": "7%",
+      "international": "23%",
+      "gender": "45% women / 55% men"
+    },
+    "accessibility_russians": "F‑1 visa; high financial requirements",
+    "key_professors": [
+      "Jesse Shapiro (ML)",
+      "Dan Jurafsky (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Princeton Fellowships"
+    ]
+  },
+  {
+    "name": "University of California, Los Angeles (UCLA)",
+    "lat": 34.0689,
+    "lon": -118.4452,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 40,
+      "THE": 41,
+      "ARWU": 30
+    },
+    "acceptance": {
+      "overall": "20%",
+      "international": "25%",
+      "gender": "52% women / 48% men"
+    },
+    "accessibility_russians": "F‑1 visa; standard process",
+    "key_professors": [
+      "Rita Singh (ML)",
+      "Miriam Butt (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "UCLA Graduate Division Fellowships"
+    ]
+  },
+  {
+    "name": "Johns Hopkins University (JHU)",
+    "lat": 39.3299,
+    "lon": -76.6205,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 26,
+      "THE": 25,
+      "ARWU": 12
+    },
+    "acceptance": {
+      "overall": "15%",
+      "international": "29%",
+      "gender": "48% women / 52% men"
+    },
+    "accessibility_russians": "F‑1 visa; strong international office",
+    "key_professors": [
+      "Russell Taylor (ML)",
+      "Karen Livescu (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "JHU Presidential Scholarships"
+    ]
+  },
+  {
+    "name": "University of California, San Diego (UCSD)",
+    "lat": 32.8801,
+    "lon": -117.234,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 36,
+      "THE": 24,
+      "ARWU": 14
+    },
+    "acceptance": {
+      "overall": "25%",
+      "international": "30%",
+      "gender": "45% women / 55% men"
+    },
+    "accessibility_russians": "F‑1 visa; typical process",
+    "key_professors": [
+      "Yann LeCun (Visiting ML)",
+      "Ocean Partridge (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "UCSD Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "The University of Tokyo",
+    "lat": 35.7126,
+    "lon": 139.761,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 24,
+      "THE": 36,
+      "ARWU": 23
+    },
+    "acceptance": {
+      "overall": "35%",
+      "international": "10%",
+      "gender": "28% women / 72% men"
+    },
+    "accessibility_russians": "Student visa via Japanese embassy; some language courses",
+    "key_professors": [
+      "Makoto Yokozawa (ML)",
+      "Satoshi Sekiguchi (NLP)"
+    ],
+    "scholarships_state": "MEXT Scholarship",
+    "scholarships_university": [
+      "UTokyo Fellowship"
+    ]
+  },
+  {
+    "name": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "lat": 36.3704,
+    "lon": 127.3601,
+    "difficulty": "Medium",
+    "ratings": {
+      "QS": 41,
+      "THE": -49,
+      "ARWU": -49
+    },
+    "acceptance": {
+      "overall": "30%",
+      "international": "20%",
+      "gender": "30% women / 70% men"
+    },
+    "accessibility_russians": "D‑2 visa; English-taught programs",
+    "key_professors": [
+      "Alice Oh (ML)",
+      "Soochul Han (NLP)"
+    ],
+    "scholarships_state": "KGSP",
+    "scholarships_university": [
+      "KAIST President Fellowship"
+    ]
+  },
+  {
+    "name": "The University of Chicago",
+    "lat": 41.7897,
+    "lon": -87.5997,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 10,
+      "THE": 15,
+      "ARWU": 10
+    },
+    "acceptance": {
+      "overall": "10%",
+      "international": "25%",
+      "gender": "48% women / 52% men"
+    },
+    "accessibility_russians": "F‑1 visa; standard process",
+    "key_professors": [
+      "John MacCormick (ML)",
+      "Ted Gibson (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "UChicago Fellowships"
+    ]
+  },
+  {
+    "name": "Duke University",
+    "lat": 36.0014,
+    "lon": -78.9382,
+    "difficulty": "High",
+    "ratings": {
+      "QS": 16,
+      "THE": 27,
+      "ARWU": 32
+    },
+    "acceptance": {
+      "overall": "10%",
+      "international": "28%",
+      "gender": "50% women / 50% men"
+    },
+    "accessibility_russians": "F‑1 visa; strong support from OIP",
+    "key_professors": [
+      "Geoff Hollister (ML)",
+      "Chris Callison-Burch (NLP)"
+    ],
+    "scholarships_state": "Fulbright",
+    "scholarships_university": [
+      "Duke Graduate Fellowships"
+    ]
+  },
+  {
+    "name": "Technical University of Munich (TUM)",
+    "lat": 48.262,
+    "lon": 11.667,
+    "difficulty": "Medium-High",
+    "ratings": {
+      "QS": 28,
+      "THE": 30,
+      "ARWU": 54
+    },
+    "acceptance": {
+      "overall": "Approx. 30%",
+      "international": "Over 35%",
+      "gender": "37% women / 63% men"
+    },
+    "accessibility_russians": "Relatively accessible; DAAD scholarships available; SEPA transfers preferred for blocked banks",
+    "key_professors": [
+      "Daniel Cremers (Computer Vision & ML)",
+      "Stephan Günnemann (Graph ML & Data Mining)",
+      "Volker Tresp (Deep Learning & Industry‑AI Collaborations)"
+    ],
+    "scholarships_state": "DAAD (German Academic Exchange Service)",
+    "scholarships_university": [
+      "Deutschlandstipendium (merit‑based)",
+      "Bavarian State Scholarship",
+      "TUM Research Assistantships"
+    ]
+  }
+]

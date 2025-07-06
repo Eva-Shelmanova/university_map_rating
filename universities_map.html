@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc9908db98bc8ea61b461339ebbdfc63 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bc9908db98bc8ea61b461339ebbdfc63" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc9908db98bc8ea61b461339ebbdfc63 = L.map(
+                "map_bc9908db98bc8ea61b461339ebbdfc63",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbccff16a4a261ca80aa4f963dacf659 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fbccff16a4a261ca80aa4f963dacf659.addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+        
+    
+            var feature_group_1a73a03403eaa238749a44c336a3cf71 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_a85dcc3e6e14ac78a8249be3624d3bc2 = L.circleMarker(
+                [24.4332, 54.602],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_ab177b605dc3e72ac183af7781cd629b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a42ae0b953e985e59dc9447c3dd74dae = $(`<div id="html_a42ae0b953e985e59dc9447c3dd74dae" style="width: 100.0%; height: 100.0%;">         <h4>MBZUAI</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: null</li><li>THE: null</li><li>ARWU: null</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 85%, 40% women / 60% men</li>           <li><strong>Accessibility for Russians:</strong> Visa assistance provided; high acceptance of Russian applicants</li>           <li><strong>Key Professors (AI/NLP):</strong> Eric Xing, Timothy Baldwin, Ling Shao</li>           <li><strong>State Scholarships:</strong> None (UAE does not offer state scholarships)</li>           <li><strong>University Scholarships:</strong> Full tuition scholarship, Monthly stipend AED 8,000</li>         </ul>     </div>`)[0];
+                popup_ab177b605dc3e72ac183af7781cd629b.setContent(html_a42ae0b953e985e59dc9447c3dd74dae);
+            
+        
+
+        circle_marker_a85dcc3e6e14ac78a8249be3624d3bc2.bindPopup(popup_ab177b605dc3e72ac183af7781cd629b)
+        ;
+
+        
+    
+    
+            circle_marker_a85dcc3e6e14ac78a8249be3624d3bc2.bindTooltip(
+                `<div>
+                     MBZUAI (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd6a44af190ba4b0b8c0442b8886ddac = L.circleMarker(
+                [1.3483, 103.6831],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_ffd40f629686dd501aeb9fb307f99c5a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0557118e68cf49de2d903ddb22e00d2f = $(`<div id="html_0557118e68cf49de2d903ddb22e00d2f" style="width: 100.0%; height: 100.0%;">         <h4>Nanyang Technological University (NTU)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 12</li><li>THE: 11</li><li>ARWU: 58</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 40%, 45% women / 55% men</li>           <li><strong>Accessibility for Russians:</strong> Straightforward student visa; IELTS/TOEFL accepted</li>           <li><strong>Key Professors (AI/NLP):</strong> Yew-Soon Ong (ML, AutoML), Keng Siau (Data Analytics), Philip S. Yu (Big Data)</li>           <li><strong>State Scholarships:</strong> Singapore Government Scholarship</li>           <li><strong>University Scholarships:</strong> NTU Scholarships (merit-based), ASEAN Graduate Scholarship</li>         </ul>     </div>`)[0];
+                popup_ffd40f629686dd501aeb9fb307f99c5a.setContent(html_0557118e68cf49de2d903ddb22e00d2f);
+            
+        
+
+        circle_marker_bd6a44af190ba4b0b8c0442b8886ddac.bindPopup(popup_ffd40f629686dd501aeb9fb307f99c5a)
+        ;
+
+        
+    
+    
+            circle_marker_bd6a44af190ba4b0b8c0442b8886ddac.bindTooltip(
+                `<div>
+                     Nanyang Technological University (NTU) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b0d4d11f9872bf6b783d1981e37e8fd = L.circleMarker(
+                [1.2956, 103.7764],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_def9ac12fc49e6bf24c3004618737930 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5f7643e87c2bf39e2ba411b9e61f5a34 = $(`<div id="html_5f7643e87c2bf39e2ba411b9e61f5a34" style="width: 100.0%; height: 100.0%;">         <h4>National University of Singapore (NUS)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 11</li><li>THE: 19</li><li>ARWU: 61</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 35%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> Visa via Singapore consulate; need minimal language certificate</li>           <li><strong>Key Professors (AI/NLP):</strong> Kian-Lee Tan (Database, Big Data), Lien Bach Ngoc (NLP), Eugenio Culurciello (Deep Learning)</li>           <li><strong>State Scholarships:</strong> ASEAN Graduate Scholarship</li>           <li><strong>University Scholarships:</strong> NUS Research Scholarship, NUS Graduate Scholarships</li>         </ul>     </div>`)[0];
+                popup_def9ac12fc49e6bf24c3004618737930.setContent(html_5f7643e87c2bf39e2ba411b9e61f5a34);
+            
+        
+
+        circle_marker_0b0d4d11f9872bf6b783d1981e37e8fd.bindPopup(popup_def9ac12fc49e6bf24c3004618737930)
+        ;
+
+        
+    
+    
+            circle_marker_0b0d4d11f9872bf6b783d1981e37e8fd.bindTooltip(
+                `<div>
+                     National University of Singapore (NUS) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9bdfee978cbbd75107c2ee0b1c96eefc = L.circleMarker(
+                [-33.8881, 151.1872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_5811db9f0521939c3e1de66e0f757147 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f971a39f321a941def7f45d3192f4e0 = $(`<div id="html_1f971a39f321a941def7f45d3192f4e0" style="width: 100.0%; height: 100.0%;">         <h4>University of Sydney</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 14</li><li>THE: 22</li><li>ARWU: 76</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 40%, Int’l 50%, 48% women / 52% men</li>           <li><strong>Accessibility for Russians:</strong> Student visa straightforward; IELTS required</li>           <li><strong>Key Professors (AI/NLP):</strong> Zoran Obradovic (Data Mining), Fiona Browne (Machine Learning)</li>           <li><strong>State Scholarships:</strong> Australia Awards</li>           <li><strong>University Scholarships:</strong> University of Sydney International Scholarships, USyd Merit Scholarships</li>         </ul>     </div>`)[0];
+                popup_5811db9f0521939c3e1de66e0f757147.setContent(html_1f971a39f321a941def7f45d3192f4e0);
+            
+        
+
+        circle_marker_9bdfee978cbbd75107c2ee0b1c96eefc.bindPopup(popup_5811db9f0521939c3e1de66e0f757147)
+        ;
+
+        
+    
+    
+            circle_marker_9bdfee978cbbd75107c2ee0b1c96eefc.bindTooltip(
+                `<div>
+                     University of Sydney (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77f9cd996c54dfd409047b5ce7bccf97 = L.circleMarker(
+                [55.944, -3.1875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_8caa27b5135f9895f49aeac4268ed69a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3143a5a47e75c30e65bed61b56402a31 = $(`<div id="html_3143a5a47e75c30e65bed61b56402a31" style="width: 100.0%; height: 100.0%;">         <h4>University of Edinburgh</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 16</li><li>THE: 30</li><li>ARWU: 34</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 65%, 47% women / 53% men</li>           <li><strong>Accessibility for Russians:</strong> Tier 4 visa; proof of English proficiency</li>           <li><strong>Key Professors (AI/NLP):</strong> Stephen Clark (NLP), Dan Roth (ML)</li>           <li><strong>State Scholarships:</strong> Chevening</li>           <li><strong>University Scholarships:</strong> Edinburgh Global Research Scholarships</li>         </ul>     </div>`)[0];
+                popup_8caa27b5135f9895f49aeac4268ed69a.setContent(html_3143a5a47e75c30e65bed61b56402a31);
+            
+        
+
+        circle_marker_77f9cd996c54dfd409047b5ce7bccf97.bindPopup(popup_8caa27b5135f9895f49aeac4268ed69a)
+        ;
+
+        
+    
+    
+            circle_marker_77f9cd996c54dfd409047b5ce7bccf97.bindTooltip(
+                `<div>
+                     University of Edinburgh (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92db4eb68f226205038abcdaab7edb93 = L.circleMarker(
+                [40.7295, -73.9965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_7d86da9ebdade2fe1ac3429b95308f5d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_acf114f0a10187b0a3fce162e658e46c = $(`<div id="html_acf114f0a10187b0a3fce162e658e46c" style="width: 100.0%; height: 100.0%;">         <h4>New York University (NYU)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 35</li><li>THE: 38</li><li>ARWU: 42</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 45%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; strong support from global services</li>           <li><strong>Key Professors (AI/NLP):</strong> Robert Moskovitch (AI), Kathleen McKeown (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> NYU Global Scholarships</li>         </ul>     </div>`)[0];
+                popup_7d86da9ebdade2fe1ac3429b95308f5d.setContent(html_acf114f0a10187b0a3fce162e658e46c);
+            
+        
+
+        circle_marker_92db4eb68f226205038abcdaab7edb93.bindPopup(popup_7d86da9ebdade2fe1ac3429b95308f5d)
+        ;
+
+        
+    
+    
+            circle_marker_92db4eb68f226205038abcdaab7edb93.bindTooltip(
+                `<div>
+                     New York University (NYU) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_208b62c6e43f264662de419111d20ab6 = L.circleMarker(
+                [24.4539, 54.3773],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_c9bba80a661cec4beeda13f50d8069c0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_22e6d43661c3f1e87e07a08d809383ab = $(`<div id="html_22e6d43661c3f1e87e07a08d809383ab" style="width: 100.0%; height: 100.0%;">         <h4>NYU Abu Dhabi</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: null</li><li>THE: 23</li><li>ARWU: null</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 100%, 48% women / 52% men</li>           <li><strong>Accessibility for Russians:</strong> Visa assistance provided; streamlined</li>           <li><strong>Key Professors (AI/NLP):</strong> Andrew Gordon (Machine Learning), Adam Roberts (NLP)</li>           <li><strong>State Scholarships:</strong> UAE Government Scholarship</li>           <li><strong>University Scholarships:</strong> NYUAD Fellowship</li>         </ul>     </div>`)[0];
+                popup_c9bba80a661cec4beeda13f50d8069c0.setContent(html_22e6d43661c3f1e87e07a08d809383ab);
+            
+        
+
+        circle_marker_208b62c6e43f264662de419111d20ab6.bindPopup(popup_c9bba80a661cec4beeda13f50d8069c0)
+        ;
+
+        
+    
+    
+            circle_marker_208b62c6e43f264662de419111d20ab6.bindTooltip(
+                `<div>
+                     NYU Abu Dhabi (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_63310fc5a9ceead77be4b59bc294a8d9 = L.circleMarker(
+                [47.6553, -122.3035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_4f1170b6df42ba756105a093848f136c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aa9d558b86a2588101c93c742ded5187 = $(`<div id="html_aa9d558b86a2588101c93c742ded5187" style="width: 100.0%; height: 100.0%;">         <h4>University of Washington (UW)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 20</li><li>THE: 25</li><li>ARWU: 16</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 25%, 44% women / 56% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa standard; ESL prep available</li>           <li><strong>Key Professors (AI/NLP):</strong> Emily Fox (ML), Luke Zettlemoyer (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Husky Presidential Scholarship</li>         </ul>     </div>`)[0];
+                popup_4f1170b6df42ba756105a093848f136c.setContent(html_aa9d558b86a2588101c93c742ded5187);
+            
+        
+
+        circle_marker_63310fc5a9ceead77be4b59bc294a8d9.bindPopup(popup_4f1170b6df42ba756105a093848f136c)
+        ;
+
+        
+    
+    
+            circle_marker_63310fc5a9ceead77be4b59bc294a8d9.bindTooltip(
+                `<div>
+                     University of Washington (UW) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_442e4220959214df0e1fa3e803050e7d = L.circleMarker(
+                [37.4563, 126.9516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_cc38454bbce094628009773fcac5d7ff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e594e0ea478aa0b25bcf3a05800e3e8e = $(`<div id="html_e594e0ea478aa0b25bcf3a05800e3e8e" style="width: 100.0%; height: 100.0%;">         <h4>Seoul National University (SNU)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 37</li><li>THE: 49</li><li>ARWU: 101</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 10%, 40% women / 60% men</li>           <li><strong>Accessibility for Russians:</strong> D‑2 student visa; Korean language course available</li>           <li><strong>Key Professors (AI/NLP):</strong> Alice Oh (ML), Hyun-chul Kim (NLP)</li>           <li><strong>State Scholarships:</strong> KGSP (Korean Government Scholarship)</li>           <li><strong>University Scholarships:</strong> SNU President Fellowship</li>         </ul>     </div>`)[0];
+                popup_cc38454bbce094628009773fcac5d7ff.setContent(html_e594e0ea478aa0b25bcf3a05800e3e8e);
+            
+        
+
+        circle_marker_442e4220959214df0e1fa3e803050e7d.bindPopup(popup_cc38454bbce094628009773fcac5d7ff)
+        ;
+
+        
+    
+    
+            circle_marker_442e4220959214df0e1fa3e803050e7d.bindTooltip(
+                `<div>
+                     Seoul National University (SNU) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92418331cbdd7b6fb8db2a989a371b09 = L.circleMarker(
+                [52.0116, 4.3571],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_c35f7d4b60deddc5d9eb229b9490b408 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b28336b60684232e9ff7d107cf4cbb25 = $(`<div id="html_b28336b60684232e9ff7d107cf4cbb25" style="width: 100.0%; height: 100.0%;">         <h4>Delft University of Technology (TU Delft)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 57</li><li>THE: 75</li><li>ARWU: -49</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 35%, Int’l 40%, 25% women / 75% men</li>           <li><strong>Accessibility for Russians:</strong> Dutch student visa; English programs</li>           <li><strong>Key Professors (AI/NLP):</strong> Max Welling (ML), Frank van Harmelen (AI)</li>           <li><strong>State Scholarships:</strong> Holland Scholarship</li>           <li><strong>University Scholarships:</strong> TU Delft Excellence Scholarships</li>         </ul>     </div>`)[0];
+                popup_c35f7d4b60deddc5d9eb229b9490b408.setContent(html_b28336b60684232e9ff7d107cf4cbb25);
+            
+        
+
+        circle_marker_92418331cbdd7b6fb8db2a989a371b09.bindPopup(popup_c35f7d4b60deddc5d9eb229b9490b408)
+        ;
+
+        
+    
+    
+            circle_marker_92418331cbdd7b6fb8db2a989a371b09.bindTooltip(
+                `<div>
+                     Delft University of Technology (TU Delft) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5854b3ed45af4d6f3b09b8397e57ce23 = L.circleMarker(
+                [60.186, 24.828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_5f07993842384206c0e79d69f9d78657 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_64711b8e16cd7c189a1f0b4bdf7c37da = $(`<div id="html_64711b8e16cd7c189a1f0b4bdf7c37da" style="width: 100.0%; height: 100.0%;">         <h4>Aalto University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 135</li><li>THE: -49</li><li>ARWU: null</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 40%, Int’l 30%, 30% women / 70% men</li>           <li><strong>Accessibility for Russians:</strong> Finnish residence permit; English-taught programs</li>           <li><strong>Key Professors (AI/NLP):</strong> Samuel Kaski (ML), Harri Valpola (Deep Learning)</li>           <li><strong>State Scholarships:</strong> Finnish Government Scholarship</li>           <li><strong>University Scholarships:</strong> Aalto University Scholarships</li>         </ul>     </div>`)[0];
+                popup_5f07993842384206c0e79d69f9d78657.setContent(html_64711b8e16cd7c189a1f0b4bdf7c37da);
+            
+        
+
+        circle_marker_5854b3ed45af4d6f3b09b8397e57ce23.bindPopup(popup_5f07993842384206c0e79d69f9d78657)
+        ;
+
+        
+    
+    
+            circle_marker_5854b3ed45af4d6f3b09b8397e57ce23.bindTooltip(
+                `<div>
+                     Aalto University (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f71a804d9d7b308914acbf8593f464b = L.circleMarker(
+                [59.3478, 18.0729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_f1b4684d0b84836b4da64b7c26caff2e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7e4398f87a1d8fcf919582a654ba6973 = $(`<div id="html_7e4398f87a1d8fcf919582a654ba6973" style="width: 100.0%; height: 100.0%;">         <h4>KTH Royal Institute of Technology</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 98</li><li>THE: -49</li><li>ARWU: null</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 20%, 30% women / 70% men</li>           <li><strong>Accessibility for Russians:</strong> Swedish residence permit; English master’s</li>           <li><strong>Key Professors (AI/NLP):</strong> Petri Myllymäki (AI), Magnus Sahlgren (NLP)</li>           <li><strong>State Scholarships:</strong> Swedish Institute Scholarship</li>           <li><strong>University Scholarships:</strong> KTH Excellence Scholarship</li>         </ul>     </div>`)[0];
+                popup_f1b4684d0b84836b4da64b7c26caff2e.setContent(html_7e4398f87a1d8fcf919582a654ba6973);
+            
+        
+
+        circle_marker_0f71a804d9d7b308914acbf8593f464b.bindPopup(popup_f1b4684d0b84836b4da64b7c26caff2e)
+        ;
+
+        
+    
+    
+            circle_marker_0f71a804d9d7b308914acbf8593f464b.bindTooltip(
+                `<div>
+                     KTH Royal Institute of Technology (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d802fc6431f0e9474ca402cca3b4ef32 = L.circleMarker(
+                [48.8499, 2.3469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_4c6019f8b75d41c5078a90f314eb1f70 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_34782f5d15189666591d857a4da9ef2f = $(`<div id="html_34782f5d15189666591d857a4da9ef2f" style="width: 100.0%; height: 100.0%;">         <h4>Sorbonne University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 100</li><li>THE: -49</li><li>ARWU: 140</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 50%, Int’l 25%, 55% women / 45% men</li>           <li><strong>Accessibility for Russians:</strong> French student visa; DELF/DALF may be required</li>           <li><strong>Key Professors (AI/NLP):</strong> Philippe Muller (AI), Laurence Likforman-Sulem (NLP)</li>           <li><strong>State Scholarships:</strong> Eiffel Scholarship</li>           <li><strong>University Scholarships:</strong> Sorbonne Excellence Scholarships</li>         </ul>     </div>`)[0];
+                popup_4c6019f8b75d41c5078a90f314eb1f70.setContent(html_34782f5d15189666591d857a4da9ef2f);
+            
+        
+
+        circle_marker_d802fc6431f0e9474ca402cca3b4ef32.bindPopup(popup_4c6019f8b75d41c5078a90f314eb1f70)
+        ;
+
+        
+    
+    
+            circle_marker_d802fc6431f0e9474ca402cca3b4ef32.bindTooltip(
+                `<div>
+                     Sorbonne University (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9f265c4fc788b2a06908661b3178ff5b = L.circleMarker(
+                [48.7132, 2.2142],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_8fe0da3259e88b063a06efe742ab19b7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_73007224e29eb7f8dfa843e4fb68b19e = $(`<div id="html_73007224e29eb7f8dfa843e4fb68b19e" style="width: 100.0%; height: 100.0%;">         <h4>Institut Polytechnique de Paris</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 128</li><li>THE: -49</li><li>ARWU: null</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 35%, Int’l 30%, 40% women / 60% men</li>           <li><strong>Accessibility for Russians:</strong> French long-stay visa; IELTS/TOEFL accepted</li>           <li><strong>Key Professors (AI/NLP):</strong> Patrick Gallinari (ML), Pierre Canal (NLP)</li>           <li><strong>State Scholarships:</strong> Eiffel Scholarship</li>           <li><strong>University Scholarships:</strong> IP Paris Excellence Scholarships</li>         </ul>     </div>`)[0];
+                popup_8fe0da3259e88b063a06efe742ab19b7.setContent(html_73007224e29eb7f8dfa843e4fb68b19e);
+            
+        
+
+        circle_marker_9f265c4fc788b2a06908661b3178ff5b.bindPopup(popup_8fe0da3259e88b063a06efe742ab19b7)
+        ;
+
+        
+    
+    
+            circle_marker_9f265c4fc788b2a06908661b3178ff5b.bindTooltip(
+                `<div>
+                     Institut Polytechnique de Paris (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1065f961e6032143b37ca15cb63015a1 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_8361f904d49deb1d2670062a4a0bc599 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_be51b948e1787653fecf5c36cc0f1f37 = $(`<div id="html_be51b948e1787653fecf5c36cc0f1f37" style="width: 100.0%; height: 100.0%;">         <h4>Université PSL</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 44</li><li>THE: -49</li><li>ARWU: 64</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 40%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> French visa; robust international office support</li>           <li><strong>Key Professors (AI/NLP):</strong> Stéphane Mallat (Math/ML), Antoine Bordes (NLP)</li>           <li><strong>State Scholarships:</strong> Eiffel Scholarship</li>           <li><strong>University Scholarships:</strong> PSL Excellence Fellowships</li>         </ul>     </div>`)[0];
+                popup_8361f904d49deb1d2670062a4a0bc599.setContent(html_be51b948e1787653fecf5c36cc0f1f37);
+            
+        
+
+        circle_marker_1065f961e6032143b37ca15cb63015a1.bindPopup(popup_8361f904d49deb1d2670062a4a0bc599)
+        ;
+
+        
+    
+    
+            circle_marker_1065f961e6032143b37ca15cb63015a1.bindTooltip(
+                `<div>
+                     Université PSL (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d5b71744175aac492ed3d23c0c527e66 = L.circleMarker(
+                [49.2606, -123.246],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_328544fb28c699313b924819d5b8b60b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_17e5d76de27a4c59b72987f8d4e052d5 = $(`<div id="html_17e5d76de27a4c59b72987f8d4e052d5" style="width: 100.0%; height: 100.0%;">         <h4>University of British Columbia (UBC)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 47</li><li>THE: 34</li><li>ARWU: 34</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 50%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> Study permit via CIC; IELTS/TOEFL accepted</li>           <li><strong>Key Professors (AI/NLP):</strong> Mark Schmidt (ML), Graeme Hirst (NLP)</li>           <li><strong>State Scholarships:</strong> Vanier Canada Graduate Scholarship</li>           <li><strong>University Scholarships:</strong> UBC Four Year Doctoral Fellowship</li>         </ul>     </div>`)[0];
+                popup_328544fb28c699313b924819d5b8b60b.setContent(html_17e5d76de27a4c59b72987f8d4e052d5);
+            
+        
+
+        circle_marker_d5b71744175aac492ed3d23c0c527e66.bindPopup(popup_328544fb28c699313b924819d5b8b60b)
+        ;
+
+        
+    
+    
+            circle_marker_d5b71744175aac492ed3d23c0c527e66.bindTooltip(
+                `<div>
+                     University of British Columbia (UBC) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_afdcc71bc46847a76538996858b38f6b = L.circleMarker(
+                [35.7126, 139.761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_efddfe545729228c42e71362d2aa7b79 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ca2b2c744c96e2e31f15667552f1f9e = $(`<div id="html_6ca2b2c744c96e2e31f15667552f1f9e" style="width: 100.0%; height: 100.0%;">         <h4>The University of Tokyo</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 24</li><li>THE: 36</li><li>ARWU: 23</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 35%, Int’l 10%, 28% women / 72% men</li>           <li><strong>Accessibility for Russians:</strong> Student visa via Japanese embassy; some language courses</li>           <li><strong>Key Professors (AI/NLP):</strong> Makoto Yokozawa (ML), Satoshi Sekiguchi (NLP)</li>           <li><strong>State Scholarships:</strong> MEXT Scholarship</li>           <li><strong>University Scholarships:</strong> UTokyo Fellowship</li>         </ul>     </div>`)[0];
+                popup_efddfe545729228c42e71362d2aa7b79.setContent(html_6ca2b2c744c96e2e31f15667552f1f9e);
+            
+        
+
+        circle_marker_afdcc71bc46847a76538996858b38f6b.bindPopup(popup_efddfe545729228c42e71362d2aa7b79)
+        ;
+
+        
+    
+    
+            circle_marker_afdcc71bc46847a76538996858b38f6b.bindTooltip(
+                `<div>
+                     The University of Tokyo (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e98b914fdd967f277912d8d2e7af2f3 = L.circleMarker(
+                [36.3704, 127.3601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a73a03403eaa238749a44c336a3cf71);
+        
+    
+        var popup_9f374a3416bed5e597c4f8a448e6bfe4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_721fcabeafb11e5295aab523c8b61d4f = $(`<div id="html_721fcabeafb11e5295aab523c8b61d4f" style="width: 100.0%; height: 100.0%;">         <h4>Korea Advanced Institute of Science and Technology (KAIST)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 41</li><li>THE: -49</li><li>ARWU: -49</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 30%, Int’l 20%, 30% women / 70% men</li>           <li><strong>Accessibility for Russians:</strong> D‑2 visa; English-taught programs</li>           <li><strong>Key Professors (AI/NLP):</strong> Alice Oh (ML), Soochul Han (NLP)</li>           <li><strong>State Scholarships:</strong> KGSP</li>           <li><strong>University Scholarships:</strong> KAIST President Fellowship</li>         </ul>     </div>`)[0];
+                popup_9f374a3416bed5e597c4f8a448e6bfe4.setContent(html_721fcabeafb11e5295aab523c8b61d4f);
+            
+        
+
+        circle_marker_7e98b914fdd967f277912d8d2e7af2f3.bindPopup(popup_9f374a3416bed5e597c4f8a448e6bfe4)
+        ;
+
+        
+    
+    
+            circle_marker_7e98b914fdd967f277912d8d2e7af2f3.bindTooltip(
+                `<div>
+                     Korea Advanced Institute of Science and Technology (KAIST) (Medium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_1a73a03403eaa238749a44c336a3cf71.addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+        
+    
+            var feature_group_4bb03e01bd10c1d8b5a30c23259ba047 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_0859517c8f3413106703c7fc95a4708d = L.circleMarker(
+                [42.3601, -71.0942],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_b69ec4c1bb5b66712ebfd184b4dc0a27 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5ebbe970fd0b2e7348c9f931985f16a2 = $(`<div id="html_5ebbe970fd0b2e7348c9f931985f16a2" style="width: 100.0%; height: 100.0%;">         <h4>MIT</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 1</li><li>THE: 2</li><li>ARWU: 2</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 7%, Int’l 33%, 41% women / 59% men</li>           <li><strong>Accessibility for Russians:</strong> Visa required; competitive F‑1 visa application</li>           <li><strong>Key Professors (AI/NLP):</strong> Tommi Jaakkola, Regina Barzilay, Max Tegmark</li>           <li><strong>State Scholarships:</strong> Fulbright Scholarship</li>           <li><strong>University Scholarships:</strong> MIT Presidential Fellowship, RA/TA positions</li>         </ul>     </div>`)[0];
+                popup_b69ec4c1bb5b66712ebfd184b4dc0a27.setContent(html_5ebbe970fd0b2e7348c9f931985f16a2);
+            
+        
+
+        circle_marker_0859517c8f3413106703c7fc95a4708d.bindPopup(popup_b69ec4c1bb5b66712ebfd184b4dc0a27)
+        ;
+
+        
+    
+    
+            circle_marker_0859517c8f3413106703c7fc95a4708d.bindTooltip(
+                `<div>
+                     MIT (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8578ff00f2fa5725c15eb706ff1e2191 = L.circleMarker(
+                [51.752, -1.2577],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_404005922314e0fc6f60a83cd7158710 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_49e308b70d28ec8ebdec02d56ec887d8 = $(`<div id="html_49e308b70d28ec8ebdec02d56ec887d8" style="width: 100.0%; height: 100.0%;">         <h4>University of Oxford</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 5</li><li>THE: 1</li><li>ARWU: 4</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 17%, Int’l 45%, 49% women / 51% men</li>           <li><strong>Accessibility for Russians:</strong> Tier 4 visa; requires CAS from college</li>           <li><strong>Key Professors (AI/NLP):</strong> Yee Whye Teh (ML), Phil Blunsom (NLP)</li>           <li><strong>State Scholarships:</strong> Chevening Scholarship</li>           <li><strong>University Scholarships:</strong> Clarendon Fund, Reach Oxford Scholarships</li>         </ul>     </div>`)[0];
+                popup_404005922314e0fc6f60a83cd7158710.setContent(html_49e308b70d28ec8ebdec02d56ec887d8);
+            
+        
+
+        circle_marker_8578ff00f2fa5725c15eb706ff1e2191.bindPopup(popup_404005922314e0fc6f60a83cd7158710)
+        ;
+
+        
+    
+    
+            circle_marker_8578ff00f2fa5725c15eb706ff1e2191.bindTooltip(
+                `<div>
+                     University of Oxford (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6798469c8e75f7139f0b8ec1deb356c = L.circleMarker(
+                [37.4275, -122.1697],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_6444e5c621e65a6bb6267603098b87fc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_80aa73775d6a3e5812b5873a64d503d2 = $(`<div id="html_80aa73775d6a3e5812b5873a64d503d2" style="width: 100.0%; height: 100.0%;">         <h4>Stanford University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 3</li><li>THE: 3</li><li>ARWU: 3</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 5%, Int’l 23%, 47% women / 53% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; rigorous financial proof</li>           <li><strong>Key Professors (AI/NLP):</strong> Christopher Manning (NLP), Andrew Ng (ML)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Knight‑Hennessy Scholars, Stanford GSA Awards</li>         </ul>     </div>`)[0];
+                popup_6444e5c621e65a6bb6267603098b87fc.setContent(html_80aa73775d6a3e5812b5873a64d503d2);
+            
+        
+
+        circle_marker_c6798469c8e75f7139f0b8ec1deb356c.bindPopup(popup_6444e5c621e65a6bb6267603098b87fc)
+        ;
+
+        
+    
+    
+            circle_marker_c6798469c8e75f7139f0b8ec1deb356c.bindTooltip(
+                `<div>
+                     Stanford University (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2fea2016da21c86bc700101b836e8c4d = L.circleMarker(
+                [34.1377, -118.1253],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_b984028fc45e52ef56cfa2f0ace768d5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6d769a401d548d505689f4e76788da51 = $(`<div id="html_6d769a401d548d505689f4e76788da51" style="width: 100.0%; height: 100.0%;">         <h4>California Institute of Technology (Caltech)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 6</li><li>THE: 8</li><li>ARWU: 5</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 6%, Int’l 30%, 45% women / 55% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; strong financials needed</li>           <li><strong>Key Professors (AI/NLP):</strong> Yisong Yue (ML), John Wawrzynek (Robotics/Embedded ML)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Caltech Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_b984028fc45e52ef56cfa2f0ace768d5.setContent(html_6d769a401d548d505689f4e76788da51);
+            
+        
+
+        circle_marker_2fea2016da21c86bc700101b836e8c4d.bindPopup(popup_b984028fc45e52ef56cfa2f0ace768d5)
+        ;
+
+        
+    
+    
+            circle_marker_2fea2016da21c86bc700101b836e8c4d.bindTooltip(
+                `<div>
+                     California Institute of Technology (Caltech) (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_092912a13ac26bdad745ecc84eb558c4 = L.circleMarker(
+                [42.377, -71.1167],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_702b369a0c347748ccb625aff108c109 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4b1175becf9a3fa20889e40a22784c86 = $(`<div id="html_4b1175becf9a3fa20889e40a22784c86" style="width: 100.0%; height: 100.0%;">         <h4>Harvard University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 2</li><li>THE: 5</li><li>ARWU: 1</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 5%, Int’l 25%, 49% women / 51% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; proof of funding</li>           <li><strong>Key Professors (AI/NLP):</strong> David Parkes (ML), Regina Barzilay (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Harvard Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_702b369a0c347748ccb625aff108c109.setContent(html_4b1175becf9a3fa20889e40a22784c86);
+            
+        
+
+        circle_marker_092912a13ac26bdad745ecc84eb558c4.bindPopup(popup_702b369a0c347748ccb625aff108c109)
+        ;
+
+        
+    
+    
+            circle_marker_092912a13ac26bdad745ecc84eb558c4.bindTooltip(
+                `<div>
+                     Harvard University (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_029a4ca4f8481b3fdde3a58391438092 = L.circleMarker(
+                [41.3163, -72.9223],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_4d963775a140e613781c80f9fc779d96 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3745953e74e37d9e025f84899eaf0608 = $(`<div id="html_3745953e74e37d9e025f84899eaf0608" style="width: 100.0%; height: 100.0%;">         <h4>Yale University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 15</li><li>THE: 18</li><li>ARWU: 12</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 6%, Int’l 30%, 52% women / 48% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; meets financial proof requirements</li>           <li><strong>Key Professors (AI/NLP):</strong> Wojciech Zaremba (ML), Iryna Gurevych (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Yale Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_4d963775a140e613781c80f9fc779d96.setContent(html_3745953e74e37d9e025f84899eaf0608);
+            
+        
+
+        circle_marker_029a4ca4f8481b3fdde3a58391438092.bindPopup(popup_4d963775a140e613781c80f9fc779d96)
+        ;
+
+        
+    
+    
+            circle_marker_029a4ca4f8481b3fdde3a58391438092.bindTooltip(
+                `<div>
+                     Yale University (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c4c240f4d90cc6d2a757696785c166f = L.circleMarker(
+                [52.2043, 0.1149],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_4e2ef93644ad761b076a0ae5e4d572ac = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c7b842e4addfb8f5c353898e26149ce5 = $(`<div id="html_c7b842e4addfb8f5c353898e26149ce5" style="width: 100.0%; height: 100.0%;">         <h4>University of Cambridge</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 2</li><li>THE: 5</li><li>ARWU: 7</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 40%, 48% women / 52% men</li>           <li><strong>Accessibility for Russians:</strong> Tier 4 visa; college sponsorship required</li>           <li><strong>Key Professors (AI/NLP):</strong> Zoubin Ghahramani (ML), Mirella Lapata (NLP)</li>           <li><strong>State Scholarships:</strong> Commonwealth Scholarship</li>           <li><strong>University Scholarships:</strong> Gates Cambridge Scholarship, Cambridge Trust Awards</li>         </ul>     </div>`)[0];
+                popup_4e2ef93644ad761b076a0ae5e4d572ac.setContent(html_c7b842e4addfb8f5c353898e26149ce5);
+            
+        
+
+        circle_marker_5c4c240f4d90cc6d2a757696785c166f.bindPopup(popup_4e2ef93644ad761b076a0ae5e4d572ac)
+        ;
+
+        
+    
+    
+            circle_marker_5c4c240f4d90cc6d2a757696785c166f.bindTooltip(
+                `<div>
+                     University of Cambridge (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0fea2acaa71de8f0783cb07e10f965c = L.circleMarker(
+                [40.3431, -74.6514],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4bb03e01bd10c1d8b5a30c23259ba047);
+        
+    
+        var popup_d3fc4574930fbfc41be849b8f947b016 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2c0df86c764970faaadaa88f0d2e1623 = $(`<div id="html_2c0df86c764970faaadaa88f0d2e1623" style="width: 100.0%; height: 100.0%;">         <h4>Princeton University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 12</li><li>THE: 9</li><li>ARWU: 12</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 7%, Int’l 23%, 45% women / 55% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; high financial requirements</li>           <li><strong>Key Professors (AI/NLP):</strong> Jesse Shapiro (ML), Dan Jurafsky (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Princeton Fellowships</li>         </ul>     </div>`)[0];
+                popup_d3fc4574930fbfc41be849b8f947b016.setContent(html_2c0df86c764970faaadaa88f0d2e1623);
+            
+        
+
+        circle_marker_e0fea2acaa71de8f0783cb07e10f965c.bindPopup(popup_d3fc4574930fbfc41be849b8f947b016)
+        ;
+
+        
+    
+    
+            circle_marker_e0fea2acaa71de8f0783cb07e10f965c.bindTooltip(
+                `<div>
+                     Princeton University (Very High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_4bb03e01bd10c1d8b5a30c23259ba047.addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+        
+    
+            var feature_group_b0ea8b23ddd6804db376245c03a4ed4b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_41e0722d598825fb4c5a81a50868e088 = L.circleMarker(
+                [47.3769, 8.5417],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_32e66938d186a0b64a53a759e74349bd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4717f9055bf5240b08c80fa268d10162 = $(`<div id="html_4717f9055bf5240b08c80fa268d10162" style="width: 100.0%; height: 100.0%;">         <h4>ETH Zurich</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 6</li><li>THE: 9</li><li>ARWU: 8</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 20%, 33% women / 67% men</li>           <li><strong>Accessibility for Russians:</strong> Visa required; straightforward process via Swiss consulate</li>           <li><strong>Key Professors (AI/NLP):</strong> Andreas Krause, Gunnar Rätsch, Thomas Hofmann</li>           <li><strong>State Scholarships:</strong> Swiss Government Excellence Scholarship</li>           <li><strong>University Scholarships:</strong> ESOP (Excellence Scholarship), ETH‑D Scholarship</li>         </ul>     </div>`)[0];
+                popup_32e66938d186a0b64a53a759e74349bd.setContent(html_4717f9055bf5240b08c80fa268d10162);
+            
+        
+
+        circle_marker_41e0722d598825fb4c5a81a50868e088.bindPopup(popup_32e66938d186a0b64a53a759e74349bd)
+        ;
+
+        
+    
+    
+            circle_marker_41e0722d598825fb4c5a81a50868e088.bindTooltip(
+                `<div>
+                     ETH Zurich (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c36124102f8ffdf406e9f2545dfeedd = L.circleMarker(
+                [37.8715, -122.273],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_537a2a84b82a48d83f586a67b912f00a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c246d6808139d870e76d34a0a95a1cbe = $(`<div id="html_c246d6808139d870e76d34a0a95a1cbe" style="width: 100.0%; height: 100.0%;">         <h4>University of California, Berkeley (UC Berkeley)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 4</li><li>THE: 8</li><li>ARWU: 5</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 22%, 52% women / 48% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa process standard; evidence of funds required</li>           <li><strong>Key Professors (AI/NLP):</strong> Michael I. Jordan (ML), Dan Klein (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright (US candidates)</li>           <li><strong>University Scholarships:</strong> Berkeley Graduate Fellowships, EECS Department Awards</li>         </ul>     </div>`)[0];
+                popup_537a2a84b82a48d83f586a67b912f00a.setContent(html_c246d6808139d870e76d34a0a95a1cbe);
+            
+        
+
+        circle_marker_9c36124102f8ffdf406e9f2545dfeedd.bindPopup(popup_537a2a84b82a48d83f586a67b912f00a)
+        ;
+
+        
+    
+    
+            circle_marker_9c36124102f8ffdf406e9f2545dfeedd.bindTooltip(
+                `<div>
+                     University of California, Berkeley (UC Berkeley) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fd60e485219bb7e0dd6ed70b79359c7 = L.circleMarker(
+                [51.4988, -0.1749],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_9a85d1d613b1ec1d770e7eabd63a3500 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_35b719afa4b74990c3499b0257f41b85 = $(`<div id="html_35b719afa4b74990c3499b0257f41b85" style="width: 100.0%; height: 100.0%;">         <h4>Imperial College London</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 12</li><li>THE: 12</li><li>ARWU: 48</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 61%, 42% women / 58% men</li>           <li><strong>Accessibility for Russians:</strong> Student visa; financial guarantee required</li>           <li><strong>Key Professors (AI/NLP):</strong> Maja Pantic (ML), Nello Cristianini (NLP)</li>           <li><strong>State Scholarships:</strong> Chevening</li>           <li><strong>University Scholarships:</strong> President’s PhD Scholarships, Imperial Scholarships</li>         </ul>     </div>`)[0];
+                popup_9a85d1d613b1ec1d770e7eabd63a3500.setContent(html_35b719afa4b74990c3499b0257f41b85);
+            
+        
+
+        circle_marker_6fd60e485219bb7e0dd6ed70b79359c7.bindPopup(popup_9a85d1d613b1ec1d770e7eabd63a3500)
+        ;
+
+        
+    
+    
+            circle_marker_6fd60e485219bb7e0dd6ed70b79359c7.bindTooltip(
+                `<div>
+                     Imperial College London (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59de572754ccad19606a36677f9048f1 = L.circleMarker(
+                [39.9522, -75.1932],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_96ddab524a015f57a88a0d3852771168 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f8078db92c230beccd186113ee14b1c7 = $(`<div id="html_f8078db92c230beccd186113ee14b1c7" style="width: 100.0%; height: 100.0%;">         <h4>University of Pennsylvania (Penn)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 14</li><li>THE: 15</li><li>ARWU: 13</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 10%, Int’l 30%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; standard process</li>           <li><strong>Key Professors (AI/NLP):</strong> Christopher Ré (ML), Ellen Riloff (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Penn Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_96ddab524a015f57a88a0d3852771168.setContent(html_f8078db92c230beccd186113ee14b1c7);
+            
+        
+
+        circle_marker_59de572754ccad19606a36677f9048f1.bindPopup(popup_96ddab524a015f57a88a0d3852771168)
+        ;
+
+        
+    
+    
+            circle_marker_59de572754ccad19606a36677f9048f1.bindTooltip(
+                `<div>
+                     University of Pennsylvania (Penn) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9f74baf5689469058583d75ca4add50a = L.circleMarker(
+                [40.444, -79.945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_96182af72661658d3c05941ff0c19503 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ca8d491259f999dd0f075afea58501e5 = $(`<div id="html_ca8d491259f999dd0f075afea58501e5" style="width: 100.0%; height: 100.0%;">         <h4>Carnegie Mellon University (CMU)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 24</li><li>THE: 27</li><li>ARWU: 22</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 40%, 40% women / 60% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; I‑20 issued after admission</li>           <li><strong>Key Professors (AI/NLP):</strong> Geoffrey Gordon (ML), Eduard Hovy (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> CMU Presidential Fellowship, TA/RA positions</li>         </ul>     </div>`)[0];
+                popup_96182af72661658d3c05941ff0c19503.setContent(html_ca8d491259f999dd0f075afea58501e5);
+            
+        
+
+        circle_marker_9f74baf5689469058583d75ca4add50a.bindPopup(popup_96182af72661658d3c05941ff0c19503)
+        ;
+
+        
+    
+    
+            circle_marker_9f74baf5689469058583d75ca4add50a.bindTooltip(
+                `<div>
+                     Carnegie Mellon University (CMU) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c8d0a8ecb8b102b6cde55f2f1248c551 = L.circleMarker(
+                [43.6629, -79.3957],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_bdbd76c5b43ad283c1007556c8fe8ab0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a6d5d792954f1468ec95acb4ab655d24 = $(`<div id="html_a6d5d792954f1468ec95acb4ab655d24" style="width: 100.0%; height: 100.0%;">         <h4>University of Toronto</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 18</li><li>THE: 16</li><li>ARWU: 24</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 50%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> Study permit required; IELTS/TOEFL accepted</li>           <li><strong>Key Professors (AI/NLP):</strong> Geoffrey Hinton (ML), Graeme Hirst (NLP)</li>           <li><strong>State Scholarships:</strong> Vanier Canada Graduate Scholarships</li>           <li><strong>University Scholarships:</strong> Trillium Scholarship, Faculty Fellowships</li>         </ul>     </div>`)[0];
+                popup_bdbd76c5b43ad283c1007556c8fe8ab0.setContent(html_a6d5d792954f1468ec95acb4ab655d24);
+            
+        
+
+        circle_marker_c8d0a8ecb8b102b6cde55f2f1248c551.bindPopup(popup_bdbd76c5b43ad283c1007556c8fe8ab0)
+        ;
+
+        
+    
+    
+            circle_marker_c8d0a8ecb8b102b6cde55f2f1248c551.bindTooltip(
+                `<div>
+                     University of Toronto (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b3bf3bcc24abd728286f0be733a948e = L.circleMarker(
+                [46.5218, 6.5676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_5925e07e1e3d4c368a147c3ea09e141f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c009503d7aca5371f0951313313cdd1a = $(`<div id="html_c009503d7aca5371f0951313313cdd1a" style="width: 100.0%; height: 100.0%;">         <h4>École Polytechnique Fédérale de Lausanne (EPFL)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 16</li><li>THE: 17</li><li>ARWU: 43</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 50%, 25% women / 75% men</li>           <li><strong>Accessibility for Russians:</strong> Visa via Swiss consulate; language not required</li>           <li><strong>Key Professors (AI/NLP):</strong> Pascal Frossard (ML), Pascal Getreuer (Image Processing)</li>           <li><strong>State Scholarships:</strong> Swiss Government Excellence Scholarship</li>           <li><strong>University Scholarships:</strong> EPFL Excellence Fellowships</li>         </ul>     </div>`)[0];
+                popup_5925e07e1e3d4c368a147c3ea09e141f.setContent(html_c009503d7aca5371f0951313313cdd1a);
+            
+        
+
+        circle_marker_1b3bf3bcc24abd728286f0be733a948e.bindPopup(popup_5925e07e1e3d4c368a147c3ea09e141f)
+        ;
+
+        
+    
+    
+            circle_marker_1b3bf3bcc24abd728286f0be733a948e.bindTooltip(
+                `<div>
+                     École Polytechnique Fédérale de Lausanne (EPFL) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01ebf43f37818d19fb44f24590153783 = L.circleMarker(
+                [42.4534, -76.4735],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_12ee0ba0d5edd85ab34747af2aa23ee1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dc5b631f8558b21803de182ed100294a = $(`<div id="html_dc5b631f8558b21803de182ed100294a" style="width: 100.0%; height: 100.0%;">         <h4>Cornell University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 18</li><li>THE: 17</li><li>ARWU: 14</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 40%, 41% women / 59% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; proof of funds</li>           <li><strong>Key Professors (AI/NLP):</strong> Claire Cardie (NLP), Ruslan Salakhutdinov (ML)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Sibley Fellowship, CS Department Awards</li>         </ul>     </div>`)[0];
+                popup_12ee0ba0d5edd85ab34747af2aa23ee1.setContent(html_dc5b631f8558b21803de182ed100294a);
+            
+        
+
+        circle_marker_01ebf43f37818d19fb44f24590153783.bindPopup(popup_12ee0ba0d5edd85ab34747af2aa23ee1)
+        ;
+
+        
+    
+    
+            circle_marker_01ebf43f37818d19fb44f24590153783.bindTooltip(
+                `<div>
+                     Cornell University (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb45b4885c162dffb4b3f694f0717a85 = L.circleMarker(
+                [51.5246, -0.134],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_1d5414fb62d5f0f7faabcad51ef05268 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7ded25e312e895501be7867d85ee60ec = $(`<div id="html_7ded25e312e895501be7867d85ee60ec" style="width: 100.0%; height: 100.0%;">         <h4>UCL (University College London)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 8</li><li>THE: 16</li><li>ARWU: 22</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 57%, 47% women / 53% men</li>           <li><strong>Accessibility for Russians:</strong> Tier 4 visa; UKVI English test accepted</li>           <li><strong>Key Professors (AI/NLP):</strong> Mark Girolami (ML), Ted Briscoe (NLP)</li>           <li><strong>State Scholarships:</strong> Chevening</li>           <li><strong>University Scholarships:</strong> UCL Global Masters Scholarship</li>         </ul>     </div>`)[0];
+                popup_1d5414fb62d5f0f7faabcad51ef05268.setContent(html_7ded25e312e895501be7867d85ee60ec);
+            
+        
+
+        circle_marker_bb45b4885c162dffb4b3f694f0717a85.bindPopup(popup_1d5414fb62d5f0f7faabcad51ef05268)
+        ;
+
+        
+    
+    
+            circle_marker_bb45b4885c162dffb4b3f694f0717a85.bindTooltip(
+                `<div>
+                     UCL (University College London) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97fb73f3a6d3052c26a885c60d81ef25 = L.circleMarker(
+                [33.7756, -84.3963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_70c7d1fa3ae4f72eb0fc574a29a98682 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_287aac3f6ad6a8b883dd95dc629ed1e8 = $(`<div id="html_287aac3f6ad6a8b883dd95dc629ed1e8" style="width: 100.0%; height: 100.0%;">         <h4>Georgia Institute of Technology (Georgia Tech)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 68</li><li>THE: 100</li><li>ARWU: -49</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 25%, 35% women / 65% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; financial proof needed</li>           <li><strong>Key Professors (AI/NLP):</strong> Zsolt Kira (ML), Mark Hasegawa-Johnson (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> GT Presidential Fellowships</li>         </ul>     </div>`)[0];
+                popup_70c7d1fa3ae4f72eb0fc574a29a98682.setContent(html_287aac3f6ad6a8b883dd95dc629ed1e8);
+            
+        
+
+        circle_marker_97fb73f3a6d3052c26a885c60d81ef25.bindPopup(popup_70c7d1fa3ae4f72eb0fc574a29a98682)
+        ;
+
+        
+    
+    
+            circle_marker_97fb73f3a6d3052c26a885c60d81ef25.bindTooltip(
+                `<div>
+                     Georgia Institute of Technology (Georgia Tech) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4cb58b3ec0c096577b8dd432e76f8105 = L.circleMarker(
+                [40.1106, -88.2073],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_07ffffe9abcf599a8aa818a85ae7b331 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c0df517115641ef047ccb5d9f0391fdf = $(`<div id="html_c0df517115641ef047ccb5d9f0391fdf" style="width: 100.0%; height: 100.0%;">         <h4>University of Illinois Urbana‑Champaign (UIUC)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 42</li><li>THE: 48</li><li>ARWU: 47</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 30%, 40% women / 60% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; I‑20 issued post‑admission</li>           <li><strong>Key Professors (AI/NLP):</strong> Carl Anderson (ML), Rada Mihalcea (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> UIUC Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_07ffffe9abcf599a8aa818a85ae7b331.setContent(html_c0df517115641ef047ccb5d9f0391fdf);
+            
+        
+
+        circle_marker_4cb58b3ec0c096577b8dd432e76f8105.bindPopup(popup_07ffffe9abcf599a8aa818a85ae7b331)
+        ;
+
+        
+    
+    
+            circle_marker_4cb58b3ec0c096577b8dd432e76f8105.bindTooltip(
+                `<div>
+                     University of Illinois Urbana‑Champaign (UIUC) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d82b9a04dbb28a527548bf69fef88315 = L.circleMarker(
+                [34.0689, -118.4452],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_dd64d129edb59e1aa05475b915bc6258 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7e939336477bb332e4ef7293fac78220 = $(`<div id="html_7e939336477bb332e4ef7293fac78220" style="width: 100.0%; height: 100.0%;">         <h4>University of California, Los Angeles (UCLA)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 40</li><li>THE: 41</li><li>ARWU: 30</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 25%, 52% women / 48% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; standard process</li>           <li><strong>Key Professors (AI/NLP):</strong> Rita Singh (ML), Miriam Butt (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> UCLA Graduate Division Fellowships</li>         </ul>     </div>`)[0];
+                popup_dd64d129edb59e1aa05475b915bc6258.setContent(html_7e939336477bb332e4ef7293fac78220);
+            
+        
+
+        circle_marker_d82b9a04dbb28a527548bf69fef88315.bindPopup(popup_dd64d129edb59e1aa05475b915bc6258)
+        ;
+
+        
+    
+    
+            circle_marker_d82b9a04dbb28a527548bf69fef88315.bindTooltip(
+                `<div>
+                     University of California, Los Angeles (UCLA) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d27b03033cd4de7bcfba066519b0228 = L.circleMarker(
+                [39.3299, -76.6205],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_363692a15c87c224a40cabc48a798600 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dd97ea1295f3a1f2ded7dc9f77d53249 = $(`<div id="html_dd97ea1295f3a1f2ded7dc9f77d53249" style="width: 100.0%; height: 100.0%;">         <h4>Johns Hopkins University (JHU)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 26</li><li>THE: 25</li><li>ARWU: 12</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 15%, Int’l 29%, 48% women / 52% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; strong international office</li>           <li><strong>Key Professors (AI/NLP):</strong> Russell Taylor (ML), Karen Livescu (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> JHU Presidential Scholarships</li>         </ul>     </div>`)[0];
+                popup_363692a15c87c224a40cabc48a798600.setContent(html_dd97ea1295f3a1f2ded7dc9f77d53249);
+            
+        
+
+        circle_marker_3d27b03033cd4de7bcfba066519b0228.bindPopup(popup_363692a15c87c224a40cabc48a798600)
+        ;
+
+        
+    
+    
+            circle_marker_3d27b03033cd4de7bcfba066519b0228.bindTooltip(
+                `<div>
+                     Johns Hopkins University (JHU) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dfb267d232300def3a7460a515013d34 = L.circleMarker(
+                [32.8801, -117.234],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_0ebeeb88dd634d478bb5dd1ff63822d0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_754e5feeaf00e060370a1c436ccad734 = $(`<div id="html_754e5feeaf00e060370a1c436ccad734" style="width: 100.0%; height: 100.0%;">         <h4>University of California, San Diego (UCSD)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 36</li><li>THE: 24</li><li>ARWU: 14</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 25%, Int’l 30%, 45% women / 55% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; typical process</li>           <li><strong>Key Professors (AI/NLP):</strong> Yann LeCun (Visiting ML), Ocean Partridge (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> UCSD Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_0ebeeb88dd634d478bb5dd1ff63822d0.setContent(html_754e5feeaf00e060370a1c436ccad734);
+            
+        
+
+        circle_marker_dfb267d232300def3a7460a515013d34.bindPopup(popup_0ebeeb88dd634d478bb5dd1ff63822d0)
+        ;
+
+        
+    
+    
+            circle_marker_dfb267d232300def3a7460a515013d34.bindTooltip(
+                `<div>
+                     University of California, San Diego (UCSD) (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92a1fa7fd04f099f4780ac150c30e6d3 = L.circleMarker(
+                [41.7897, -87.5997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_48a5e1c8e038571fc7118092d0c2c32f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7a03433ce9828487e5a0ac64dd4b8ee2 = $(`<div id="html_7a03433ce9828487e5a0ac64dd4b8ee2" style="width: 100.0%; height: 100.0%;">         <h4>The University of Chicago</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 10</li><li>THE: 15</li><li>ARWU: 10</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 10%, Int’l 25%, 48% women / 52% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; standard process</li>           <li><strong>Key Professors (AI/NLP):</strong> John MacCormick (ML), Ted Gibson (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> UChicago Fellowships</li>         </ul>     </div>`)[0];
+                popup_48a5e1c8e038571fc7118092d0c2c32f.setContent(html_7a03433ce9828487e5a0ac64dd4b8ee2);
+            
+        
+
+        circle_marker_92a1fa7fd04f099f4780ac150c30e6d3.bindPopup(popup_48a5e1c8e038571fc7118092d0c2c32f)
+        ;
+
+        
+    
+    
+            circle_marker_92a1fa7fd04f099f4780ac150c30e6d3.bindTooltip(
+                `<div>
+                     The University of Chicago (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5554ea94b325dddf19fa1c875dbced1c = L.circleMarker(
+                [36.0014, -78.9382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b0ea8b23ddd6804db376245c03a4ed4b);
+        
+    
+        var popup_6bd8b8aa5514f3d8c5d07c6eb12351f8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a651220585e221bb641c0997b0dc3b64 = $(`<div id="html_a651220585e221bb641c0997b0dc3b64" style="width: 100.0%; height: 100.0%;">         <h4>Duke University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 16</li><li>THE: 27</li><li>ARWU: 32</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 10%, Int’l 28%, 50% women / 50% men</li>           <li><strong>Accessibility for Russians:</strong> F‑1 visa; strong support from OIP</li>           <li><strong>Key Professors (AI/NLP):</strong> Geoff Hollister (ML), Chris Callison-Burch (NLP)</li>           <li><strong>State Scholarships:</strong> Fulbright</li>           <li><strong>University Scholarships:</strong> Duke Graduate Fellowships</li>         </ul>     </div>`)[0];
+                popup_6bd8b8aa5514f3d8c5d07c6eb12351f8.setContent(html_a651220585e221bb641c0997b0dc3b64);
+            
+        
+
+        circle_marker_5554ea94b325dddf19fa1c875dbced1c.bindPopup(popup_6bd8b8aa5514f3d8c5d07c6eb12351f8)
+        ;
+
+        
+    
+    
+            circle_marker_5554ea94b325dddf19fa1c875dbced1c.bindTooltip(
+                `<div>
+                     Duke University (High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_b0ea8b23ddd6804db376245c03a4ed4b.addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+        
+    
+            var feature_group_df7dd54f5ec71c192b3a2e87fc6e2da1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_c05e3ddbda8a6dc676a1ece641126ea3 = L.circleMarker(
+                [39.9042, 116.4074],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_df7dd54f5ec71c192b3a2e87fc6e2da1);
+        
+    
+        var popup_175e97ec788516607f05d8ba962a3bc9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_742a39a16a597953ab4b35c14d8d29df = $(`<div id="html_742a39a16a597953ab4b35c14d8d29df" style="width: 100.0%; height: 100.0%;">         <h4>Tsinghua University</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 15</li><li>THE: 17</li><li>ARWU: 23</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall 20%, Int’l 10%, 45% women / 55% men</li>           <li><strong>Accessibility for Russians:</strong> Easy via student visa; Chinese language prep recommended</li>           <li><strong>Key Professors (AI/NLP):</strong> Tiejun Zhao, Haifeng Wang, Qi Ju</li>           <li><strong>State Scholarships:</strong> Chinese Government Scholarship</li>           <li><strong>University Scholarships:</strong> Schwarzman Scholarship, Tuition Waiver</li>         </ul>     </div>`)[0];
+                popup_175e97ec788516607f05d8ba962a3bc9.setContent(html_742a39a16a597953ab4b35c14d8d29df);
+            
+        
+
+        circle_marker_c05e3ddbda8a6dc676a1ece641126ea3.bindPopup(popup_175e97ec788516607f05d8ba962a3bc9)
+        ;
+
+        
+    
+    
+            circle_marker_c05e3ddbda8a6dc676a1ece641126ea3.bindTooltip(
+                `<div>
+                     Tsinghua University (Medium-High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65adc447df7aae0af53c117e83dab045 = L.circleMarker(
+                [48.262, 11.667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_df7dd54f5ec71c192b3a2e87fc6e2da1);
+        
+    
+        var popup_fe014b9b6ca145a56a9eb5744f953d44 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bcf731f231ca017d3d77ac8a7259049e = $(`<div id="html_bcf731f231ca017d3d77ac8a7259049e" style="width: 100.0%; height: 100.0%;">         <h4>Technical University of Munich (TUM)</h4>         <ul>           <li><strong>University Ratings:</strong>             <ul><li>QS: 28</li><li>THE: 30</li><li>ARWU: 54</li></ul>           </li>           <li><strong>Acceptance Rate:</strong> Overall Approx. 30%, Int’l Over 35%, 37% women / 63% men</li>           <li><strong>Accessibility for Russians:</strong> Relatively accessible; DAAD scholarships available; SEPA transfers preferred for blocked banks</li>           <li><strong>Key Professors (AI/NLP):</strong> Daniel Cremers (Computer Vision & ML), Stephan Günnemann (Graph ML & Data Mining), Volker Tresp (Deep Learning & Industry‑AI Collaborations)</li>           <li><strong>State Scholarships:</strong> DAAD (German Academic Exchange Service)</li>           <li><strong>University Scholarships:</strong> Deutschlandstipendium (merit‑based), Bavarian State Scholarship, TUM Research Assistantships</li>         </ul>     </div>`)[0];
+                popup_fe014b9b6ca145a56a9eb5744f953d44.setContent(html_bcf731f231ca017d3d77ac8a7259049e);
+            
+        
+
+        circle_marker_65adc447df7aae0af53c117e83dab045.bindPopup(popup_fe014b9b6ca145a56a9eb5744f953d44)
+        ;
+
+        
+    
+    
+            circle_marker_65adc447df7aae0af53c117e83dab045.bindTooltip(
+                `<div>
+                     Technical University of Munich (TUM) (Medium-High)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_df7dd54f5ec71c192b3a2e87fc6e2da1.addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+        
+    
+            var layer_control_feb7abfe9b3be49ddf9ced3d11f18c2f_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_fbccff16a4a261ca80aa4f963dacf659,
+                },
+                overlays :  {
+                    "Medium Admission Difficulty" : feature_group_1a73a03403eaa238749a44c336a3cf71,
+                    "Very High Admission Difficulty" : feature_group_4bb03e01bd10c1d8b5a30c23259ba047,
+                    "High Admission Difficulty" : feature_group_b0ea8b23ddd6804db376245c03a4ed4b,
+                    "Medium-High Admission Difficulty" : feature_group_df7dd54f5ec71c192b3a2e87fc6e2da1,
+                },
+            };
+            let layer_control_feb7abfe9b3be49ddf9ced3d11f18c2f = L.control.layers(
+                layer_control_feb7abfe9b3be49ddf9ced3d11f18c2f_layers.base_layers,
+                layer_control_feb7abfe9b3be49ddf9ced3d11f18c2f_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_bc9908db98bc8ea61b461339ebbdfc63);
+
+        
+</script>
+</html>
